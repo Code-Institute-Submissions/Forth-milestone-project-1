@@ -117,7 +117,7 @@ li.drop-down>ul>li>a,
 	display: block;
 	padding: 20px 22px;
 	text-decoration: none;
-	background-color: #f7dfdf;
+	background-color: #f3ebeb;
 	border-bottom: 1px dotted #547787;
 	-webkit-transition: color 0.2s linear, background 0.2s linear;
 	-moz-transition: color 0.2s linear, background 0.2s linear;
@@ -158,14 +158,14 @@ h4.row.mega-title {
   font-size: 90%;
   line-height: 25px;
   color: #fff;
-  font-family: inherit;
+  
 }
 .flyout-mega ul > li > a:hover,
 .flyout-mega ul > li > a:active,
 .flyout-mega ul > li > a:focus{
   text-decoration: none;
   background-color: transparent !important;
-  color: #f7dfdf !important
+  color: #f3ebeb !important
 }
 /*mega menu*/
 
@@ -178,23 +178,32 @@ h4.row.mega-title {
   min-height: 100%;
   padding-bottom: 50px;
 }
+h4.row.mega-title a {
+    text-decoration: none;
+}
+
 h4.row.mega-title {
   color: black;
   margin-top: 0px;
-  font-size: 14px;
+  font-size: 15px;
   padding-left: 15px;
   padding-bottom: 13px;
   padding-top: 15px;
+  
   }
  .mega-menu ul li a {
   line-height: 25px;
   font-size: 90%;
   display: block;
+  text-decoration: none;
 }
 
 ul.description li {
     padding-bottom: 12px;
     line-height: 8px;
+    font-size: 15px;
+    color:#4e5863;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 
@@ -205,7 +214,8 @@ ul.description li {
 .flyout-left ul>li>a,
 .flyout-mega-wrap,
 .mega-menu{
-	background-color:#f7dfdf;
+	background-color:#f3ebeb;
+    
 }
 
 /*hover*/
