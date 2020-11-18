@@ -267,10 +267,11 @@ li.flyout-mega>a:hover +.flyout-mega-wrap{
 	.exo-menu > li{
 		width:100%;
 	}
-	.display.exo-menu > li > a{
+	.exo-menu:hover > li > a{
 	  display:block ;
-	  	padding: 20px 22px;
+	  padding: 20px 22px;
     }
+    
     .mega-menu {
         left: 0px;
         right: 0px;
@@ -287,16 +288,6 @@ li.flyout-mega>a:hover +.flyout-mega-wrap{
 .flyout-left>ul, li.drop-down>ul{
 		position:relative;
 }
-
-}
-a.toggle-menu{
-    position: absolute;
-    right: 0px;
-    padding: 20px;
-    font-size: 27px;
-    background-color: #ccc;
-    color: #ceddc8;
-    top: 0px;
 }
 
 
