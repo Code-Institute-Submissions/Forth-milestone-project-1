@@ -60,31 +60,34 @@
                                 <li class="list-inline-item dropdown">
                                     <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <div class="text-center">
-                                            
-                                            <p class="my-0">Profile</p>
+                                            <div><i class="fas fa-user fa-lg"></i></div>
+                                            <p class="my-0">My Account</p>
                                         </div>
-                                        <div class="dropdown-menu border-0" aria-labelledby="user-options">
-                                            <a href="" class="dropdown-item">Product Management</a>
+                                    </a>
+                                    <div class="dropdown-menu border-0" aria-labelledby="user-options">
+                                        {% if request.user.is_authenticated %}
+                                            {% if request.user.is_superuser %}
+                                                <a href="" class="dropdown-item">Product Management</a>
+                                            {% endif %}
                                             <a href="" class="dropdown-item">My Profile</a>
-                                            <a href="" class="dropdown-item">Logout</a>
-                                            <a href="" class="dropdown-item">Register</a>
-                                            <a href="" class="dropdown-item">Login</a>
-                                        </div>
-                                    </a>
-
+                                            <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
+                                        {% else %}          
+                                            <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
+                                            <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
+                                        {% endif %}
+                                    </div>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a class="" href="">
-                                        <div class="row text-center">
-                                            <i class="fas fa-cart-arrow-down"></i>
-                                                <p class="ml-2">Cart</p>
-                                        </div>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a class="" href="">
+                                    <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="">
                                         <div class="text-center">
-                                            <p class="my-0">Checkout</p>
+                                            <div><i class="fas fa-shopping-bag fa-lg"></i></div>
+                                            <p class="my-0">
+                                                {% if grand_total %}
+                                                    ${{ grand_total|floatformat:2 }}
+                                                {% else %}
+                                                    $0.00
+                                                {% endif %}
+                                           </p>
                                         </div>
                                     </a>
                                 </li>
@@ -95,7 +98,7 @@
                     <div class="row bg-white">
                         <div class="navbar navbar-expand-lg navbar-light w-100">
                             <div class="col-12 col-lg-12 mt-30 text-center text-lg-left">
-                                <a href="" class="nav-link main-logo-link">
+                                <a href="{% url 'home' %}" class="nav-link main-logo-link">
                                     <h2 class="text-black my-0" style="color:black;"><strong>SAN FRANCISCO</strong></h2>
                                     <p class="text-center" style="color:purple;">NATURAL BEAUTY</p>
                                     <hr style="height: .8px; color:purple;background-color:purple; position: absolute; width: 20%;left: 40%;margin-top:-10px;">
@@ -105,10 +108,9 @@
                     </div>
                 </div>
                 <div class="row justify-content-center my-0">
-                    <ul class="exo-menu ">
-                        <button class="dropbtn"><i class="fa fa-caret-down"></i></button>
-                        <li><a class="active" href="#"><i class="fa fa-home"></i>Home</a></li>
-                        <li class="mega-drop-down"><a href="#"><i class="fas fa-shopping-bag"></i> Shop</a>
+                    <ul class="exo-menu myLinks">
+                        <li><a class="active" href="{% url 'home' %}"><i class="fa fa-home"></i>Home</a></li>
+                        <li class="mega-drop-down"><a data-toggle="dropdown" href="#"><i class="fas fa-shopping-bag"></i> Shop</a>
                             <div class="animated fadeIn mega-menu">
                                 <div class="mega-menu-wrap">
                                     <div class="row my-1 justify-content-center mx-auto">
@@ -188,6 +190,11 @@
                         <li class="blog-drop-down"><a href="#"><i class="fa fa-bullhorn"></i> THEME INFO</a></li>
                         <li><a href="#"><i class="fa fa-envelope"></i> Contact</a></li>     
                     </ul>
+                </div>
+                <div id="delivery-banner" class="row text-center mt-2">
+                    <div class="col bg-black text-white">
+                        <h4 class="logo-font my-1">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>                
+                    </div>            
                 </div>
             </div>
         </nav>
@@ -278,6 +285,17 @@
 </footer>
 
     {% block postloadjs %}
+
+    <script type="text/javascript">
+        function myFunction() {
+            var x = document.getElementByClass("mega-menu");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
     {% endblock %}   
   </body>
 </html>
