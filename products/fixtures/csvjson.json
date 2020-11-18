@@ -1,6 +1,6 @@
 [
   {
-    "product_name": "100% Pure Acai Pulp Facial Scrub",
+    "name": "100% Pure Acai Pulp Facial Scrub",
     "brand": "100% Pure",
     "category": "Skincare",
     "sub_categories": "Masks + Exfoliants",
@@ -17,7 +17,7 @@
     "": ""
   },
   {
-    "product_name": "100% Pure Charcoal Clay Cleanser",
+    "name": "100% Pure Charcoal Clay Cleanser",
     "brand": "100% Pure",
     "category": "Skincare",
     "sub_categories": "Cleansers",
@@ -34,7 +34,7 @@
     "": ""
   },
   {
-    "product_name": "100% Pure Cocoa Butter Semi Matte Lipstick",
+    "name": "100% Pure Cocoa Butter Semi Matte Lipstick",
     "brand": "100% Pure",
     "category": "Lips",
     "sub_categories": "Lipstick",
@@ -51,7 +51,7 @@
     "": ""
   },
   {
-    "product_name": "100% Pure Creamy Liner",
+    "name": "100% Pure Creamy Liner",
     "brand": "100% Pure",
     "category": "Lips",
     "sub_categories": "Lip Liner",
@@ -68,7 +68,7 @@
     "": ""
   },
   {
-    "product_name": "100% Pure Creamy Long Last Lip Liner",
+    "name": "100% Pure Creamy Long Last Lip Liner",
     "brand": "100% Pure",
     "category": "Lips",
     "sub_categories": "Lip Liner",
@@ -85,7 +85,7 @@
     "": ""
   },
   {
-    "product_name": "100% Pure Creamy Nail Polish",
+    "name": "100% Pure Creamy Nail Polish",
     "brand": "100% Pure",
     "category": "Hair + Nail",
     "sub_categories": "Nail",
@@ -102,7 +102,7 @@
     "": ""
   },
   {
-    "product_name": "100% Pure Eyebrow Brush",
+    "name": "100% Pure Eyebrow Brush",
     "brand": "100% Pure",
     "category": "Eyes + Brows",
     "sub_categories": "shadow + liner brushes",
@@ -119,7 +119,7 @@
     "": ""
   },
   {
-    "product_name": "100% Pure Long Last Brows",
+    "name": "100% Pure Long Last Brows",
     "brand": "100% Pure",
     "category": "Eyes + Brows",
     "sub_categories": "shadow + liner brushes",
@@ -136,7 +136,7 @@
     "": ""
   },
   {
-    "product_name": "100% Pure Long Last Liquid Eyeliner",
+    "name": "100% Pure Long Last Liquid Eyeliner",
     "brand": "100% Pure",
     "category": "Eyes + Brows",
     "sub_categories": "Eyeliner",
@@ -153,7 +153,7 @@
     "": ""
   },
   {
-    "product_name": "100% Pure Pomegranate Oil Anti-Aging Lipstick",
+    "name": "100% Pure Pomegranate Oil Anti-Aging Lipstick",
     "brand": "100% Pure",
     "category": "Lips",
     "sub_categories": "Lipstick",
@@ -170,7 +170,7 @@
     "": ""
   },
   {
-    "product_name": "100% Pure Retinol Restorative Overnight Balm",
+    "name": "100% Pure Retinol Restorative Overnight Balm",
     "brand": "100% Pure",
     "category": "Skincare",
     "sub_categories": "Moisturizer",
@@ -187,7 +187,7 @@
     "": ""
   },
   {
-    "product_name": "100% Pure Shower Gel in Coconut",
+    "name": "100% Pure Shower Gel in Coconut",
     "brand": "100% Pure",
     "category": "Body + Bath",
     "sub_categories": "Body Wash",
@@ -204,7 +204,7 @@
     "": ""
   },
   {
-    "product_name": "100% Pure Shower Gel in Eucalyptus",
+    "name": "100% Pure Shower Gel in Eucalyptus",
     "brand": "100% Pure",
     "category": "Body + Bath",
     "sub_categories": "Body Wash",
@@ -221,7 +221,7 @@
     "": ""
   },
   {
-    "product_name": "100% Pure Shower Gel in French Lavendar",
+    "name": "100% Pure Shower Gel in French Lavendar",
     "brand": "100% Pure",
     "category": "Body + Bath",
     "sub_categories": "Body Wash",
@@ -238,7 +238,7 @@
     "": ""
   },
   {
-    "product_name": "100% Pure Shower Gel in Honey Almond",
+    "name": "100% Pure Shower Gel in Honey Almond",
     "brand": "100% Pure",
     "category": "Body + Bath",
     "sub_categories": "Body Wash",
@@ -255,7 +255,7 @@
     "": ""
   },
   {
-    "product_name": "100% Pure Tea Tree & Willow Cleanser",
+    "name": "100% Pure Tea Tree & Willow Cleanser",
     "brand": "100% Pure",
     "category": "Skincare",
     "sub_categories": "Cleansers",
@@ -272,7 +272,7 @@
     "": ""
   },
   {
-    "product_name": "100% Pure ultra lengthening mascara",
+    "name": "100% Pure ultra lengthening mascara",
     "brand": "100% Pure",
     "category": "Eyes + Brows",
     "sub_categories": "Mascara",
@@ -289,7 +289,7 @@
     "": ""
   },
   {
-    "product_name": "100% Pure Vitamin C Serum",
+    "name": "100% Pure Vitamin C Serum",
     "brand": "100% Pure",
     "category": "Skincare",
     "sub_categories": "Oil + Serum",
@@ -306,7 +306,7 @@
     "": ""
   },
   {
-    "product_name": "Acure Dry Shampoo",
+    "name": "Acure Dry Shampoo",
     "brand": "Acure",
     "category": "Hair + Nail",
     "sub_categories": "Shampoo",
@@ -323,7 +323,7 @@
     "": ""
   },
   {
-    "product_name": "Allover Shadow Brush",
+    "name": "Allover Shadow Brush",
     "brand": "Alima Pure",
     "category": "Eyes + Brows",
     "sub_categories": "shadow + liner brushes",
@@ -340,7 +340,7 @@
     "": ""
   },
   {
-    "product_name": "Balance Shampoo",
+    "name": "Balance Shampoo",
     "brand": "Josh Rosebrook",
     "category": "Hair + Nail",
     "sub_categories": "Shampoo",
@@ -357,7 +357,7 @@
     "": ""
   },
   {
-    "product_name": "Balmy Days Lip Balm",
+    "name": "Balmy Days Lip Balm",
     "brand": "Ilia Beauty",
     "category": "Lips",
     "sub_categories": "Lip care",
@@ -374,7 +374,7 @@
     "": ""
   },
   {
-    "product_name": "Balmy Nights Lip Exfoliator",
+    "name": "Balmy Nights Lip Exfoliator",
     "brand": "Ilia Beauty",
     "category": "Lips",
     "sub_categories": "Lip care",
@@ -391,7 +391,7 @@
     "": ""
   },
   {
-    "product_name": "Beauty Nail Polish",
+    "name": "Beauty Nail Polish",
     "brand": "RMS Beauty",
     "category": "Hair + Nail",
     "sub_categories": "Nail",
@@ -408,7 +408,7 @@
     "": ""
   },
   {
-    "product_name": "Blueberry Orange Soap",
+    "name": "Blueberry Orange Soap",
     "brand": "SallyeAnder",
     "category": "Body + Bath",
     "sub_categories": "Soap",
@@ -425,7 +425,7 @@
     "": ""
   },
   {
-    "product_name": "Blush Brush",
+    "name": "Blush Brush",
     "brand": "Alima Pure",
     "category": "Eyes + Brows",
     "sub_categories": "shadow + liner brushes",
@@ -442,7 +442,7 @@
     "": ""
   },
   {
-    "product_name": "Body Beautiful Conditioner",
+    "name": "Body Beautiful Conditioner",
     "brand": "Acure",
     "category": "Hair + Nail",
     "sub_categories": "Conditioner",
@@ -459,7 +459,7 @@
     "": ""
   },
   {
-    "product_name": "Body Beautiful Shampoo",
+    "name": "Body Beautiful Shampoo",
     "brand": "Acure",
     "category": "Hair + Nail",
     "sub_categories": "Shampoo",
@@ -476,7 +476,7 @@
     "": ""
   },
   {
-    "product_name": "Brighten Up Vitamin C Serum",
+    "name": "Brighten Up Vitamin C Serum",
     "brand": "Ursa Major",
     "category": "Skincare",
     "sub_categories": "Oil + Serum",
@@ -493,7 +493,7 @@
     "": ""
   },
   {
-    "product_name": "Brightening Cleanser",
+    "name": "Brightening Cleanser",
     "brand": "INDIE LEE",
     "category": "Skincare",
     "sub_categories": "Cleansers",
@@ -510,7 +510,7 @@
     "": ""
   },
   {
-    "product_name": "Brilliantly Brightening Day Cream",
+    "name": "Brilliantly Brightening Day Cream",
     "brand": "Acure",
     "category": "Skincare",
     "sub_categories": "Moisturizer",
@@ -527,7 +527,7 @@
     "": ""
   },
   {
-    "product_name": "Brow Duo Pencil",
+    "name": "Brow Duo Pencil",
     "brand": "Lily Lolo",
     "category": "Eyes + Brows",
     "sub_categories": "shadow + liner brushes",
@@ -544,7 +544,7 @@
     "": ""
   },
   {
-    "product_name": "Charcoal and Biotin Dry Shampoo",
+    "name": "Charcoal and Biotin Dry Shampoo",
     "brand": "Briogeo",
     "category": "Hair + Nail",
     "sub_categories": "Shampoo",
@@ -561,7 +561,7 @@
     "": ""
   },
   {
-    "product_name": "Cleansing Gel",
+    "name": "Cleansing Gel",
     "brand": "HollyBeth",
     "category": "Skincare",
     "sub_categories": "Cleansers",
@@ -578,7 +578,7 @@
     "": ""
   },
   {
-    "product_name": "Coconut Hand Buttercream",
+    "name": "Coconut Hand Buttercream",
     "brand": "100% Pure",
     "category": "Body + Bath",
     "sub_categories": "Hand cream",
@@ -595,7 +595,7 @@
     "": ""
   },
   {
-    "product_name": "Contour Shadow Brush",
+    "name": "Contour Shadow Brush",
     "brand": "Alima Pure",
     "category": "Eyes + Brows",
     "sub_categories": "shadow + liner brushes",
@@ -612,7 +612,7 @@
     "": ""
   },
   {
-    "product_name": "CoQ-10 Toner",
+    "name": "CoQ-10 Toner",
     "brand": "100% Pure",
     "category": "Skincare",
     "sub_categories": "Toner",
@@ -629,7 +629,7 @@
     "": ""
   },
   {
-    "product_name": "Daily Harmony Face Wash",
+    "name": "Daily Harmony Face Wash",
     "brand": "thesis",
     "category": "Skincare",
     "sub_categories": "Cleansers",
@@ -646,7 +646,7 @@
     "": ""
   },
   {
-    "product_name": "Daily Harmony for Oily Skin",
+    "name": "Daily Harmony for Oily Skin",
     "brand": "thesis",
     "category": "Skincare",
     "sub_categories": "Oil + Serum",
@@ -663,7 +663,7 @@
     "": ""
   },
   {
-    "product_name": "Defining Mascara",
+    "name": "Defining Mascara",
     "brand": "RMS Beauty",
     "category": "Eyes + Brows",
     "sub_categories": "Mascara",
@@ -680,7 +680,7 @@
     "": ""
   },
   {
-    "product_name": "Dry Skin Daily Moisture",
+    "name": "Dry Skin Daily Moisture",
     "brand": "thesis",
     "category": "Skincare",
     "sub_categories": "Moisturizer",
@@ -697,7 +697,7 @@
     "": ""
   },
   {
-    "product_name": "Elixir Lip Gloss",
+    "name": "Elixir Lip Gloss",
     "brand": "Vapour Beauty",
     "category": "Lips",
     "sub_categories": "Lip Gloss",
@@ -714,7 +714,7 @@
     "": ""
   },
   {
-    "product_name": "Empower Eau de Parfum",
+    "name": "Empower Eau de Parfum",
     "brand": "Empower",
     "category": "Body + Bath",
     "sub_categories": "Fragrance",
@@ -731,7 +731,7 @@
     "": ""
   },
   {
-    "product_name": "Essential Face Palette",
+    "name": "Essential Face Palette",
     "brand": "Ilia Beauty",
     "category": "Eyes + Brows",
     "sub_categories": "shadow + liner brushes",
@@ -748,7 +748,7 @@
     "": ""
   },
   {
-    "product_name": "Essential Face Tonic",
+    "name": "Essential Face Tonic",
     "brand": "Ursa Major",
     "category": "Skincare",
     "sub_categories": "Toner",
@@ -765,7 +765,7 @@
     "": ""
   },
   {
-    "product_name": "Essential Shadow Palette",
+    "name": "Essential Shadow Palette",
     "brand": "Lily Lolo",
     "category": "Eyes + Brows",
     "sub_categories": "Eyeshadow",
@@ -782,7 +782,7 @@
     "": ""
   },
   {
-    "product_name": "Eucalyptus Hand Buttercream",
+    "name": "Eucalyptus Hand Buttercream",
     "brand": "100% Pure",
     "category": "Body + Bath",
     "sub_categories": "Hand cream",
@@ -799,7 +799,7 @@
     "": ""
   },
   {
-    "product_name": "Evolution Mascara",
+    "name": "Evolution Mascara",
     "brand": "Nu Evolution",
     "category": "Eyes + Brows",
     "sub_categories": "Mascara",
@@ -816,7 +816,7 @@
     "": ""
   },
   {
-    "product_name": "Eye Serum",
+    "name": "Eye Serum",
     "brand": "HIQ",
     "category": "Skincare",
     "sub_categories": "Oil + Serum",
@@ -833,7 +833,7 @@
     "": ""
   },
   {
-    "product_name": "Eyebrow Duo",
+    "name": "Eyebrow Duo",
     "brand": "Lily Lolo",
     "category": "Eyes + Brows",
     "sub_categories": "Eyeshadow",
@@ -850,7 +850,7 @@
     "": ""
   },
   {
-    "product_name": "Fantastic Face Wash",
+    "name": "Fantastic Face Wash",
     "brand": "Ursa Major",
     "category": "Skincare",
     "sub_categories": "Cleansers",
@@ -867,7 +867,7 @@
     "": ""
   },
   {
-    "product_name": "Finishing Powder Brush",
+    "name": "Finishing Powder Brush",
     "brand": "Ilia Beauty",
     "category": "Eyes + Brows",
     "sub_categories": "shadow + liner brushes",
@@ -884,7 +884,7 @@
     "": ""
   },
   {
-    "product_name": "Flourish Calming Perfume",
+    "name": "Flourish Calming Perfume",
     "brand": "HollyBeth",
     "category": "Body + Bath",
     "sub_categories": "Fragrance",
@@ -901,7 +901,7 @@
     "": ""
   },
   {
-    "product_name": "Fortifying Face Balm",
+    "name": "Fortifying Face Balm",
     "brand": "Ursa Major",
     "category": "Skincare",
     "sub_categories": "Moisturizer",
@@ -918,7 +918,7 @@
     "": ""
   },
   {
-    "product_name": "French Lavender Candle",
+    "name": "French Lavender Candle",
     "brand": "Red Flower",
     "category": "Body + Bath",
     "sub_categories": "Candles",
@@ -935,7 +935,7 @@
     "": ""
   },
   {
-    "product_name": "Ginseng + Biotin Volumizing Shampoo",
+    "name": "Ginseng + Biotin Volumizing Shampoo",
     "brand": "Briogeo",
     "category": "Hair + Nail",
     "sub_categories": "Shampoo",
@@ -952,7 +952,7 @@
     "": ""
   },
   {
-    "product_name": "Golden Hour Recovery Cream",
+    "name": "Golden Hour Recovery Cream",
     "brand": "Ursa Major",
     "category": "Skincare",
     "sub_categories": "Moisturizer",
@@ -969,7 +969,7 @@
     "": ""
   },
   {
-    "product_name": "Herbal Skin Remedy",
+    "name": "Herbal Skin Remedy",
     "brand": "Leave + Root",
     "category": "Body + Bath",
     "sub_categories": "Body Lotion",
@@ -986,7 +986,7 @@
     "": ""
   },
   {
-    "product_name": "Honey Almond Hand Buttercream",
+    "name": "Honey Almond Hand Buttercream",
     "brand": "100% Pure",
     "category": "Body + Bath",
     "sub_categories": "Hand cream",
@@ -1003,7 +1003,7 @@
     "": ""
   },
   {
-    "product_name": "Hoppin' Fresh Deodorant",
+    "name": "Hoppin' Fresh Deodorant",
     "brand": "Ursa Major",
     "category": "Body + Bath",
     "sub_categories": "Deodorant",
@@ -1020,7 +1020,7 @@
     "": ""
   },
   {
-    "product_name": "Hydrating Accelerator",
+    "name": "Hydrating Accelerator",
     "brand": "Josh Rosebrook",
     "category": "Skincare",
     "sub_categories": "Moisturizer",
@@ -1037,7 +1037,7 @@
     "": ""
   },
   {
-    "product_name": "Hydrating Wash",
+    "name": "Hydrating Wash",
     "brand": "Evolvh",
     "category": "Hair + Nail",
     "sub_categories": "Shampoo",
@@ -1054,7 +1054,7 @@
     "": ""
   },
   {
-    "product_name": "Incredibly Clear Sheet Mask",
+    "name": "Incredibly Clear Sheet Mask",
     "brand": "Acure",
     "category": "Skincare",
     "sub_categories": "Masks + Exfoliants",
@@ -1071,7 +1071,7 @@
     "": ""
   },
   {
-    "product_name": "Italian Blood Orange Candle",
+    "name": "Italian Blood Orange Candle",
     "brand": "Red Flower",
     "category": "Body + Bath",
     "sub_categories": "Candles",
@@ -1088,7 +1088,7 @@
     "": ""
   },
   {
-    "product_name": "Lakeshore Soap",
+    "name": "Lakeshore Soap",
     "brand": "SallyeAnder",
     "category": "Body + Bath",
     "sub_categories": "Soap",
@@ -1105,7 +1105,7 @@
     "": ""
   },
   {
-    "product_name": "Lavender Moon Soap",
+    "name": "Lavender Moon Soap",
     "brand": "SallyeAnder",
     "category": "Body + Bath",
     "sub_categories": "Soap",
@@ -1122,7 +1122,7 @@
     "": ""
   },
   {
-    "product_name": "Leave-in Mask Spray",
+    "name": "Leave-in Mask Spray",
     "brand": "Briogeo",
     "category": "Hair + Nail",
     "sub_categories": "Conditioner",
@@ -1139,7 +1139,7 @@
     "": ""
   },
   {
-    "product_name": "Lip Gloss",
+    "name": "Lip Gloss",
     "brand": "Ilia Beauty",
     "category": "Lips",
     "sub_categories": "Lip Gloss",
@@ -1156,7 +1156,7 @@
     "": ""
   },
   {
-    "product_name": "Lip Pencil",
+    "name": "Lip Pencil",
     "brand": "Lily Lolo",
     "category": "Lips",
     "sub_categories": "Lip Liner",
@@ -1173,7 +1173,7 @@
     "": ""
   },
   {
-    "product_name": "Lip Velvet",
+    "name": "Lip Velvet",
     "brand": "Clove Hallow",
     "category": "Lips",
     "sub_categories": "Lip Gloss",
@@ -1190,7 +1190,7 @@
     "": ""
   },
   {
-    "product_name": "Lip2Cheek",
+    "name": "Lip2Cheek",
     "brand": "RMS Beauty",
     "category": "Lips",
     "sub_categories": "Lip Gloss",
@@ -1207,7 +1207,7 @@
     "": ""
   },
   {
-    "product_name": "Lipstick",
+    "name": "Lipstick",
     "brand": "Ilia Beauty",
     "category": "Lips",
     "sub_categories": "Lipstick",
@@ -1224,7 +1224,7 @@
     "": ""
   },
   {
-    "product_name": "Mascara",
+    "name": "Mascara",
     "brand": "Lily Lolo",
     "category": "Eyes + Brows",
     "sub_categories": "Mascara",
@@ -1241,7 +1241,7 @@
     "": ""
   },
   {
-    "product_name": "Matte Lipstick",
+    "name": "Matte Lipstick",
     "brand": "100% Pure",
     "category": "Lips",
     "sub_categories": "Lipstick",
@@ -1258,7 +1258,7 @@
     "": ""
   },
   {
-    "product_name": "Mega Moisture Conditioner",
+    "name": "Mega Moisture Conditioner",
     "brand": "Acure",
     "category": "Hair + Nail",
     "sub_categories": "Conditioner",
@@ -1275,7 +1275,7 @@
     "": ""
   },
   {
-    "product_name": "Mega Moisture Shampoo",
+    "name": "Mega Moisture Shampoo",
     "brand": "Acure",
     "category": "Hair + Nail",
     "sub_categories": "Shampoo",
@@ -1292,7 +1292,7 @@
     "": ""
   },
   {
-    "product_name": "Mesmerize Eyeliner",
+    "name": "Mesmerize Eyeliner",
     "brand": "Vapour Beauty",
     "category": "Eyes + Brows",
     "sub_categories": "Eyeliner",
@@ -1309,7 +1309,7 @@
     "": ""
   },
   {
-    "product_name": "Mini Blending Eyeshadow Brush",
+    "name": "Mini Blending Eyeshadow Brush",
     "brand": "Alima Pure",
     "category": "Eyes + Brows",
     "sub_categories": "shadow + liner brushes",
@@ -1326,7 +1326,7 @@
     "": ""
   },
   {
-    "product_name": "Multi Stick",
+    "name": "Multi Stick",
     "brand": "Ilia Beauty",
     "category": "Eyes + Brows",
     "sub_categories": "shadow + liner brushes",
@@ -1343,7 +1343,7 @@
     "": ""
   },
   {
-    "product_name": "Natural Definition Brow Pencil",
+    "name": "Natural Definition Brow Pencil",
     "brand": "Alima Pure",
     "category": "Eyes + Brows",
     "sub_categories": "shadow + liner brushes",
@@ -1360,7 +1360,7 @@
     "": ""
   },
   {
-    "product_name": "Natural Definition Mascara",
+    "name": "Natural Definition Mascara",
     "brand": "Alima Pure",
     "category": "Eyes + Brows",
     "sub_categories": "Mascara",
@@ -1377,7 +1377,7 @@
     "": ""
   },
   {
-    "product_name": "Natural Deodorant Stick",
+    "name": "Natural Deodorant Stick",
     "brand": "PiperWai",
     "category": "Body + Bath",
     "sub_categories": "Deodorant",
@@ -1394,7 +1394,7 @@
     "": ""
   },
   {
-    "product_name": "No B.S. Deodorant",
+    "name": "No B.S. Deodorant",
     "brand": "Ursa Major",
     "category": "Body + Bath",
     "sub_categories": "Deodorant",
@@ -1411,7 +1411,7 @@
     "": ""
   },
   {
-    "product_name": "Nourish Shampoo",
+    "name": "Nourish Shampoo",
     "brand": "Josh Rosebrook",
     "category": "Hair + Nail",
     "sub_categories": "Shampoo",
@@ -1428,7 +1428,7 @@
     "": ""
   },
   {
-    "product_name": "Nu Evolution Lip Gloss",
+    "name": "Nu Evolution Lip Gloss",
     "brand": "Nu Evolution",
     "category": "Lips",
     "sub_categories": "Lip Gloss",
@@ -1445,7 +1445,7 @@
     "": ""
   },
   {
-    "product_name": "Nu Evolution Lipstick",
+    "name": "Nu Evolution Lipstick",
     "brand": "Nu Evolution",
     "category": "Lips",
     "sub_categories": "Lipstick",
@@ -1462,7 +1462,7 @@
     "": ""
   },
   {
-    "product_name": "Ocean Candle",
+    "name": "Ocean Candle",
     "brand": "Red Flower",
     "category": "Body + Bath",
     "sub_categories": "Candles",
@@ -1479,7 +1479,7 @@
     "": ""
   },
   {
-    "product_name": "Organic Rose Soap",
+    "name": "Organic Rose Soap",
     "brand": "SallyeAnder",
     "category": "Body + Bath",
     "sub_categories": "Soap",
@@ -1496,7 +1496,7 @@
     "": ""
   },
   {
-    "product_name": "Osmia Lip Doctor",
+    "name": "Osmia Lip Doctor",
     "brand": "Osmia",
     "category": "Lips",
     "sub_categories": "Lip care",
@@ -1513,7 +1513,7 @@
     "": ""
   },
   {
-    "product_name": "Perfect Zen Body Lotion",
+    "name": "Perfect Zen Body Lotion",
     "brand": "Ursa Major",
     "category": "Body + Bath",
     "sub_categories": "Body Lotion",
@@ -1530,7 +1530,7 @@
     "": ""
   },
   {
-    "product_name": "Precision Angle Liner Brush",
+    "name": "Precision Angle Liner Brush",
     "brand": "Alima Pure",
     "category": "Eyes + Brows",
     "sub_categories": "shadow + liner brushes",
@@ -1547,7 +1547,7 @@
     "": ""
   },
   {
-    "product_name": "Pressed Blush",
+    "name": "Pressed Blush",
     "brand": "Lily Lolo",
     "category": "Eyes + Brows",
     "sub_categories": "shadow + liner brushes",
@@ -1564,7 +1564,7 @@
     "": ""
   },
   {
-    "product_name": "Pressed Eyeshadow",
+    "name": "Pressed Eyeshadow",
     "brand": "Alima Pure",
     "category": "Eyes + Brows",
     "sub_categories": "Eyeshadow",
@@ -1581,7 +1581,7 @@
     "": ""
   },
   {
-    "product_name": "Pure Eyeliner",
+    "name": "Pure Eyeliner",
     "brand": "Ilia Beauty",
     "category": "Eyes + Brows",
     "sub_categories": "Eyeliner",
@@ -1598,7 +1598,7 @@
     "": ""
   },
   {
-    "product_name": "Pure Mascara",
+    "name": "Pure Mascara",
     "brand": "Ilia Beauty",
     "category": "Eyes + Brows",
     "sub_categories": "Mascara",
@@ -1615,7 +1615,7 @@
     "": ""
   },
   {
-    "product_name": "Rosarco Reparative Shampoo",
+    "name": "Rosarco Reparative Shampoo",
     "brand": "Briogeo",
     "category": "Hair + Nail",
     "sub_categories": "Shampoo",
@@ -1632,7 +1632,7 @@
     "": ""
   },
   {
-    "product_name": "Satin Cream Lip Crayon",
+    "name": "Satin Cream Lip Crayon",
     "brand": "Ilia Beauty",
     "category": "Lips",
     "sub_categories": "Lip Liner",
@@ -1649,7 +1649,7 @@
     "": ""
   },
   {
-    "product_name": "Satin Matte Eyeliner",
+    "name": "Satin Matte Eyeliner",
     "brand": "Alima Pure",
     "category": "Eyes + Brows",
     "sub_categories": "Eyeliner",
@@ -1666,7 +1666,7 @@
     "": ""
   },
   {
-    "product_name": "Seriously Soothing Biocellulose Mask",
+    "name": "Seriously Soothing Biocellulose Mask",
     "brand": "Acure",
     "category": "Skincare",
     "sub_categories": "Masks + Exfoliants",
@@ -1683,7 +1683,7 @@
     "": ""
   },
   {
-    "product_name": "Shade and Blend Shadow Brush",
+    "name": "Shade and Blend Shadow Brush",
     "brand": "Ilia Beauty",
     "category": "Eyes + Brows",
     "sub_categories": "shadow + liner brushes",
@@ -1700,7 +1700,7 @@
     "": ""
   },
   {
-    "product_name": "Sheer Vivid Tinted Moisturizer",
+    "name": "Sheer Vivid Tinted Moisturizer",
     "brand": "Ilia Beauty",
     "category": "Skincare",
     "sub_categories": "Moisturizer",
@@ -1717,7 +1717,7 @@
     "": ""
   },
   {
-    "product_name": "Silken Shadow Stick",
+    "name": "Silken Shadow Stick",
     "brand": "Ilia Beauty",
     "category": "Eyes + Brows",
     "sub_categories": "Eyeshadow",
@@ -1734,7 +1734,7 @@
     "": ""
   },
   {
-    "product_name": "Simply Smoothing Conditioner",
+    "name": "Simply Smoothing Conditioner",
     "brand": "Acure",
     "category": "Hair + Nail",
     "sub_categories": "Conditioner",
@@ -1751,7 +1751,7 @@
     "": ""
   },
   {
-    "product_name": "Simply Smoothing Shampoo",
+    "name": "Simply Smoothing Shampoo",
     "brand": "Acure",
     "category": "Hair + Nail",
     "sub_categories": "Shampoo",
@@ -1768,7 +1768,7 @@
     "": ""
   },
   {
-    "product_name": "Skin Dew Coconut Water Cream",
+    "name": "Skin Dew Coconut Water Cream",
     "brand": "One-love Beauty",
     "category": "Skincare",
     "sub_categories": "Moisturizer",
@@ -1785,7 +1785,7 @@
     "": ""
   },
   {
-    "product_name": "Small Fan Brush",
+    "name": "Small Fan Brush",
     "brand": "Lily Lolo",
     "category": "Eyes + Brows",
     "sub_categories": "shadow + liner brushes",
@@ -1802,7 +1802,7 @@
     "": ""
   },
   {
-    "product_name": "Smart Start Leave-in Conditioner",
+    "name": "Smart Start Leave-in Conditioner",
     "brand": "Evolvh",
     "category": "Hair + Nail",
     "sub_categories": "Leave-in Conditioner",
@@ -1819,7 +1819,7 @@
     "": ""
   },
   {
-    "product_name": "Smart Volume Leave-in Conditioner",
+    "name": "Smart Volume Leave-in Conditioner",
     "brand": "Evolvh",
     "category": "Hair + Nail",
     "sub_categories": "Leave-in Conditioner",
@@ -1836,7 +1836,7 @@
     "": ""
   },
   {
-    "product_name": "Smartcurl Hydrating Conditioner",
+    "name": "Smartcurl Hydrating Conditioner",
     "brand": "Evolvh",
     "category": "Hair + Nail",
     "sub_categories": "Conditioner",
@@ -1853,7 +1853,7 @@
     "": ""
   },
   {
-    "product_name": "Soap-uccino Soap",
+    "name": "Soap-uccino Soap",
     "brand": "SallyeAnder",
     "category": "Body + Bath",
     "sub_categories": "Soap",
@@ -1870,7 +1870,7 @@
     "": ""
   },
   {
-    "product_name": "Squalane Facial Oil",
+    "name": "Squalane Facial Oil",
     "brand": "INDIE LEE",
     "category": "Skincare",
     "sub_categories": "Oil + Serum",
@@ -1887,7 +1887,7 @@
     "": ""
   },
   {
-    "product_name": "Sublime Sweet Orange Body Lotion",
+    "name": "Sublime Sweet Orange Body Lotion",
     "brand": "Acure",
     "category": "Body + Bath",
     "sub_categories": "Body Lotion",
@@ -1904,7 +1904,7 @@
     "": ""
   },
   {
-    "product_name": "Superfinish Polishing Balm",
+    "name": "Superfinish Polishing Balm",
     "brand": "Evolvh",
     "category": "Hair + Nail",
     "sub_categories": "Treatment + Styling",
@@ -1921,7 +1921,7 @@
     "": ""
   },
   {
-    "product_name": "Tinted Lip Conditioner",
+    "name": "Tinted Lip Conditioner",
     "brand": "Ilia Beauty",
     "category": "Lips",
     "sub_categories": "Lip care",
@@ -1938,7 +1938,7 @@
     "": ""
   },
   {
-    "product_name": "Tomato Lycopene SPF 20 Moisturizer",
+    "name": "Tomato Lycopene SPF 20 Moisturizer",
     "brand": "100% Pure",
     "category": "Skincare",
     "sub_categories": "Moisturizer",
@@ -1955,7 +1955,7 @@
     "": ""
   },
   {
-    "product_name": "Total Control Styling Creme",
+    "name": "Total Control Styling Creme",
     "brand": "Evolvh",
     "category": "Hair + Nail",
     "sub_categories": "Teatment + Styling",
@@ -1972,7 +1972,7 @@
     "": ""
   },
   {
-    "product_name": "True Skin Serum Foundation",
+    "name": "True Skin Serum Foundation",
     "brand": "Ilia Beauty",
     "category": "Skincare",
     "sub_categories": "Oil + Serum",
@@ -1989,7 +1989,7 @@
     "": ""
   },
   {
-    "product_name": "Ultimate Styling Lotion",
+    "name": "Ultimate Styling Lotion",
     "brand": "Evolvh",
     "category": "Hair + Nail",
     "sub_categories": "Teatment + Styling",
@@ -2006,7 +2006,7 @@
     "": ""
   },
   {
-    "product_name": "Ultra Repair Reconstructing Masque",
+    "name": "Ultra Repair Reconstructing Masque",
     "brand": "Evolvh",
     "category": "Skincare",
     "sub_categories": "Masks + Exfoliants",
@@ -2023,7 +2023,7 @@
     "": ""
   },
   {
-    "product_name": "Ultrashine Moisture Conditioner",
+    "name": "Ultrashine Moisture Conditioner",
     "brand": "Evolvh",
     "category": "Hair + Nail",
     "sub_categories": "Conditioner",
@@ -2040,7 +2040,7 @@
     "": ""
   },
   {
-    "product_name": "Ultrashine Moisture Shampoo",
+    "name": "Ultrashine Moisture Shampoo",
     "brand": "Evolvh",
     "category": "Hair + Nail",
     "sub_categories": "Shampoo",
@@ -2057,7 +2057,7 @@
     "": ""
   },
   {
-    "product_name": "Velvet Lip Gloss",
+    "name": "Velvet Lip Gloss",
     "brand": "Vapour Beauty",
     "category": "Lips",
     "sub_categories": "Lip Gloss",
@@ -2074,7 +2074,7 @@
     "": ""
   },
   {
-    "product_name": "Vivacious Volume Conditioner",
+    "name": "Vivacious Volume Conditioner",
     "brand": "Acure",
     "category": "Hair + Nail",
     "sub_categories": "Conditioner",
@@ -2091,7 +2091,7 @@
     "": ""
   },
   {
-    "product_name": "Winter's Eye Swirl Soap",
+    "name": "Winter's Eye Swirl Soap",
     "brand": "SallyeAnder",
     "category": "Body + Bath",
     "sub_categories": "Soap",
@@ -2108,7 +2108,7 @@
     "": ""
   },
   {
-    "product_name": "",
+    "name": "",
     "brand": "",
     "category": "",
     "sub_categories": "",
