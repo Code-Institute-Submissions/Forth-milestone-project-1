@@ -39,7 +39,7 @@
   <body>
     <header>
         <nav class="">
-            <div class="container-fluid w-100 my-auto">
+            <div class="container-fluid w-100 my-auto" >
                 <div class="row bg-white">
                         <div class="col-12 col-lg-4 col-md-4 col-sm-10 col-xs-10 ml-5 my-auto py-1 py-lg-0">
                             <form method="GET" action="">
@@ -107,7 +107,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center my-0">
+                <div class="row justify-content-center my-0" style="position: relative; z-index: 9999999">
                     <ul class="exo-menu myLinks">
                         <li><a class="active" href="{% url 'home' %}"><i class="fa fa-home"></i>Home</a></li>
                         <li class="mega-drop-down"><a data-toggle="dropdown" href="#"><i class="fas fa-shopping-bag"></i> Shop</a>
@@ -191,13 +191,15 @@
                         <li><a href="#"><i class="fa fa-envelope"></i> Contact</a></li>     
                     </ul>
                 </div>
-                <div id="delivery-banner" class="row text-center mt-2">
-                    <div class="col bg-black text-white">
-                        <h4 class="logo-font my-1">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>                
-                    </div>            
-                </div>
+                
+            </div>
+            <div id="delivery-banner" class="row text-center mt-2">
+                <div class="col bg-black text-white">
+                    <h4 class="logo-font my-1">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>                
+                </div>            
             </div>
         </nav>
+
     </header>
 
     {% if messages %}

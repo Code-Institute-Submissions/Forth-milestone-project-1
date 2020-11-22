@@ -17,12 +17,13 @@
     
     
     <div class="row">
-        {% for count in counts %}
+        {% for count in images %}
             {% for image in images %}
+           
                 <div class="col-lg-4 col-md-4 col-sm-6 col-12 imagealigncenter">
                     <a href="">
-                        <img style="width: 250px;height: 250px;" src="{{ image.latest_date }}" alt="">
-                        <p class="text-center mt-4">{{ count.sub_categories }}</p>
+                        <img style="width: 250px;height: 250px;" src="{{ image.url }}" alt="">
+                        <p class="text-center mt-4"> {{ count.sub_categories }}</p>
                         <p class="text-center" style="font-weight: bold;">{{ count.count_subcategories }} items</p>
                     </a> 
                 </div>

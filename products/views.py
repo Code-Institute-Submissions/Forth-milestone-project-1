@@ -8,7 +8,8 @@ from .models import database
 def all_products(request):  
     products = database.objects.all()
     counts = database.objects.values('sub_categories').annotate(count_subcategories=Count('name')).order_by()
-    images = database.objects.values('sub_categories').annotate(latest_date=Max('url1')).order_by()
+    images = database.objects.values('sub_categories').annotate(latest_price=Max("name")).order_by()
+    
     context = {
         'products': products,
         'counts': counts,
