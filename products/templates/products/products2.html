@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block page_header %}
+
+{% endblock %}
+
+{% block content %}
+    <div class="my-5">
+        <h4 class="text-center" style="font-size: 30px; color:rgb(99, 84, 84);">Product Collections</h4>
+        <hr class="w-85 mx-5" style="height: 20px; color:rgb(105, 97, 97);">
+        <a class="text-left pl-5 pr-1 font-italic" id="homelink" href="index.html">Home</a>
+        <span class=""><i class="fas fa-chevron-right"></i></span>
+        <a class="text-left pr-1 font-italic" id="homelink" href="{% url 'all_products' %}">Products collections</a>
+        <span class=""><i class="fas fa-chevron-right"></i></span>
+        <span class="font-italic">Page 1 of 1</span>
+    </div>
+    
+    
+    <div id="main-wrap">
+        <div id="sidebar" class="col-lg-8 col-md-8 col-12">
+            <div class="w-75">
+                <h4>Shop by Brand</h4>
+                <hr>
+                <div class="nav2">
+                    <ul class="brandlist select">
+                        <a href="{% url 'all_products' %}?brand=100% Pure"><li>100% Pure</li></a>
+                        <a href="{% url 'all_products' %}?brand=Acure"><li>Acure</li></a>
+                        <a href="{% url 'all_products' %}?brand=Alima Pure"><li>Alima Pure</li></a>
+                        <a href="{% url 'all_products' %}?brand=Evolvh"><li>Evolvh</li></a>
+                        <a href="{% url 'all_products' %}?brand=Ilia Beauty"><li>Ilia Beauty</li></a>
+                        <a href="{% url 'all_products' %}?brand=Lily Lolo"><li>Lily Lolo</li></a>
+                        <a href="{% url 'all_products' %}?brand=Moon Juice"><li>Moon Juice</li></a>
+                        <a href="{% url 'all_products' %}?brand=Nu Evolution"><li>Nu Evolution</li></a>
+                        <a href="{% url 'all_products' %}?brand=RMS Beauty"><li>RMS Beauty</li></a>
+                        <a href="{% url 'all_products' %}?brand=SallyeAnder"><li>SallyeAnder</li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="content-wrap">
+            {% for product in products %}
+            <div class="col-lg-4 col-md-6 col-sm-6 col-12" id="resize2">
+                <a href="productdetails.html" >
+                    <img class="newproducts" style="width: 300px;height: 300px;" src="{{ product.url1}}" alt="">
+                    <p id="hoverfont" class="text-center mt-4">{{ product.name}}</p>
+                    <div class="text-center">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="heading">review 1</span>
+                    </div>
+                    <p class="text-center mt-1">{{ product.price}}</p>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="row my-4 justify-content-center">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination pg-blue">
+                <li class="page-item disabled">
+                    <a class="page-link" tabindex="-1">Previous</a>
+                </li>
+                <li class="page-item"><a class="page-link">1</a></li>
+                <li class="page-item"><a class="page-link">2</a></li>
+                <li class="page-item"><a class="page-link">3</a></li>
+                <li class="page-item">
+                    <a class="page-link">Next</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+
+    
+{% endblock %}

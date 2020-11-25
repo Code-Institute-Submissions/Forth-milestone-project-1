@@ -14,7 +14,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/YFcch0FhSIqb4dy8UImZ_800x_1024x1024_b8f99b38-4fcc-43b8-9cfc-fd3917de9682_1200x.png?v=1569371462", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "Masks + Exfoliants", 
+            "sub_categories": "Masks Exfoliants", 
             "price": "35", 
             "name": "100% Pure Acai Pulp Facial Scrub"
         }
@@ -103,7 +103,7 @@
         "pk": 6, 
         "model": "products.database", 
         "fields": {
-            "category": "Hair + Nail",  
+            "category": "Hair Nail",  
             "description": "Free of 10 of the common carcinogens in most nail polish including formaldehyde, toluene, DBP, camphor, and formaldehyde resin. Directions for Use:Apply 100% Pure Horsetail Base Coat first for strong, healthy nails with a smoother surface. Apply one coat of nail polish color. After the first coat dries, apply a second coat. Finish with 100% Pure Glass Top Coat for a chip-free high gloss finish.", 
             "brand": "100% Pure", 
             "url2": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/crush_nail_1024x1024_e9a899dc-4124-48d4-833b-e4cd2368a7a1_1200x.png?v=1570065010", 
@@ -114,7 +114,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/Kiss_480_1024x1024_1024x1024_531c61dc-0d98-44eb-b849-d9d6fde8e027_1200x.png?v=1570065010", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "Nail", 
+            "sub_categories": "Nails", 
             "price": "12.00", 
             "name": "100% Pure Creamy Nail Polish"
         }
@@ -123,7 +123,7 @@
         "pk": 7, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows",  
+            "category": "Eyes Brows",  
             "description": "This dual ended brush applies color to the brow perfectly with its precisely angled-tip, and brushes hair into place with its spoolie. Made from eco recycled PBT plastic bottles that is cruelty-free.", 
             "brand": "100% Pure", 
             "url2": "", 
@@ -134,7 +134,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/Untitled_design_76_1024x1024_4590fdb1-cb30-4dc3-95c1-722ca0e21b06_1200x.png?v=1570068935", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "shadow + liner brushes", 
+            "sub_categories": "Shadow Liner Brushes", 
             "price": "19.00", 
             "name": "100% Pure Eyebrow Brush"
         }
@@ -143,7 +143,7 @@
         "pk": 8, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows", 
+            "category": "Eyes Brows", 
             "description": "Multi-tasking brow gel to shape, fill and set. Natural pigments of cocoa beans and black tea leaves to give natural looking, rich color. Conditioning ingredients for healthier eyebrows. Directions For UseUse Dual Ended Eyebrow brush to apply color to the brow perfectly with its precisely angled-tip, and brushes hair into place with its spoolie.", 
             "brand": "100% Pure", 
             "url2": "", 
@@ -154,7 +154,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/brow-blonde_1200x.png?v=1569359955", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "shadow + liner brushes", 
+            "sub_categories": "Shadow Liner Brushes", 
             "price": "25.00", 
             "name": "100% Pure Long Last Brows"
         }
@@ -163,7 +163,7 @@
         "pk": 9, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows", 
+            "category": "Eyes Brows", 
             "description": "All natural liquid liner richly pigmented from crushed, micronized black tea leaves instead of harsh synthetic dyes. Long lasting, smudge proof for all day wear. Safe and gentle enough for sensitive eyes - no artificial fragrances, no chemical preservative or any other toxins for your sensitive eyes. Water resistant. For all desiring a long wearing eyeliner that lasts all day and is smudge proof.", 
             "brand": "100% Pure", 
             "url2": "", 
@@ -223,7 +223,7 @@
         "pk": 12, 
         "model": "products.database", 
         "fields": {
-            "category": "Body + Bath", 
+            "category": "Body Bath", 
             "description": "Richly foaming hydrating shower gel refreshes and soothes while gently cleansing your body. Therapeutic herbs, rose hydrosol, green tea and seaweed nourish for healthier skin. Formula is free of sulfates or any other detergents, free of artificial fragrances or perfumes, free of dyes, free of chemical preservatives or any other toxins.", 
             "brand": "100% Pure", 
             "url2": "", 
@@ -243,7 +243,7 @@
         "pk": 13, 
         "model": "products.database", 
         "fields": {
-            "category": "Body + Bath", 
+            "category": "Body Bath", 
             "description": "Richly foaming hydrating shower gel refreshes and soothes while gently cleansing your body. Therapeutic herbs, rose hydrosol, green tea and seaweed nourish for healthier skin. Formula is free of sulfates or any other detergents, free of artificial fragrances or perfumes, free of dyes, free of chemical preservatives or any other toxins. Truly 100% Pure.", 
             "brand": "100% Pure", 
             "url2": "", 
@@ -263,7 +263,7 @@
         "pk": 14, 
         "model": "products.database", 
         "fields": {
-            "category": "Body + Bath", 
+            "category": "Body Bath", 
             "description": "Richly foaming hydrating shower gel refreshes and soothes while gently cleansing your body. Therapeutic herbs, rose hydrosol, green tea and seaweed nourish for healthier skin. Formula is free of sulfates or any other detergents, free of artificial fragrances or perfumes, free of dyes, free of chemical preservatives or any other toxins. Truly 100% Pure.", 
             "brand": "100% Pure", 
             "url2": "", 
@@ -283,7 +283,7 @@
         "pk": 15, 
         "model": "products.database", 
         "fields": {
-            "category": "Body + Bath", 
+            "category": "Body Bath", 
             "description": "Richly foaming hydrating shower gel refreshes and soothes while gently cleansing your body. Therapeutic herbs, rose hydrosol, green tea and seaweed nourish for healthier skin. The formula is free of sulfates or any other detergents, free of artificial fragrances or perfumes, free of dyes, free of chemical preservatives or any other toxins. Truly 100% PURE.", 
             "brand": "100% Pure", 
             "url2": "", 
@@ -323,7 +323,7 @@
         "pk": 17, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows",  
+            "category": "Eyes Brows",  
             "description": "Your eyes will come alive with 100% Pure natural mascara which lengthens, separates, thickens, and glosses lashes with fruit and black tea pigments. ProVitamin B5, Vitamin E, Oat, and Wheat protein condition and produce healthier lashes. This gentle, all natural, good for you formula is suitable for everyone, even if you wear contacts or have sensitive eyes. The fact that it's water and smudge-resistant makes for a mascara that's sure to keep up during a long work shift or special occasion.", 
             "brand": "100% Pure", 
             "url2": "", 
@@ -354,7 +354,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/vitamin-c_1200x.png?v=1569366463", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "Oil + Serum", 
+            "sub_categories": "Oil Serum", 
             "price": "41.00", 
             "name": "100% Pure Vitamin C Serum"
         }
@@ -363,7 +363,7 @@
         "pk": 19, 
         "model": "products.database", 
         "fields": {
-            "category": "Hair + Nail", 
+            "category": "Hair Nail", 
             "description": "Easy to use, fast acting, dry shampoo that absorbs oil and removes grime without water! Convenient and effective -- for all hair types (especially yours). Directions: Twist open the cap and squeeze container to puff Dry Shampoo onto your brush or directly into the hair. Work into the scalp and comb through to the ends. Easy breezy!", 
             "brand": "Acure", 
             "url2": "", 
@@ -383,7 +383,7 @@
         "pk": 20, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows",  
+            "category": "Eyes Brows",  
             "description": "Notify me when this product is available", 
             "brand": "Alima Pure", 
             "url2": "", 
@@ -394,7 +394,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/AP_Allover_shadow_brush_1024x1024_1024x1024_b8a9a4b8-8442-49aa-aea1-ca176ae4ec6e_1200x.jpeg?v=1570068935", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "shadow + liner brushes", 
+            "sub_categories": "Shadow Liner Brushes", 
             "price": "25.00", 
             "name": "Allover Shadow Brush"
         }
@@ -403,7 +403,7 @@
         "pk": 21, 
         "model": "products.database", 
         "fields": {
-            "category": "Hair + Nail",  
+            "category": "Hair Nail",  
             "description": "A balancing shampoo formulated for All Hair Textures with Normal to Oily scalp conditions to offset excessive oiliness and create volume. Aloe vera, gentle natural cleansers and advanced herbal infusions work in unique synergy to cleanse impurities and balance overly sebaceous scalp conditions for effortless volume and manageability. Rich natural plant oils and herbal actives effectively soften, add shine, treat scalp and stimulate follicle circulation to increase flow of nourishment, encouraging strong, continued hair growth.", 
             "brand": "Josh Rosebrook", 
             "url2": "", 
@@ -463,7 +463,7 @@
         "pk": 24, 
         "model": "products.database", 
         "fields": {
-            "category": "Hair + Nail", 
+            "category": "Hair Nail", 
             "description": "Application is easy with luxurious, saturated color and a brush that gives a professional finish with no streaking. Easily removed with any nail polish remover. Formulated without harmful chemicals, this 5-free formula is a cruelty-free, vegan, curated selection of your favorite shades.", 
             "brand": "RMS Beauty", 
             "url2": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/finalhonest_1024x1024_1024x1024_669b6f17-5822-49a3-a001-34f9c51a92e0_1200x.jpeg?v=1570065011", 
@@ -474,7 +474,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/finalcurious_1024x1024_1024x1024_25dba5d4-68e8-42e2-806f-35778851469b_1200x.jpeg?v=1570065011", 
             "color4": "Spark", 
             "url3": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/finalbeloved_1024x1024_1024x1024_864e00c9-8842-43f8-b317-0bbee9ced2c6_1200x.jpeg?v=1570065011", 
-            "sub_categories": "Nail", 
+            "sub_categories": "Nails", 
             "price": "15.00", 
             "name": "Beauty Nail Polish"
         }
@@ -483,7 +483,7 @@
         "pk": 25, 
         "model": "products.database", 
         "fields": {
-            "category": "Body + Bath",  
+            "category": "Body Bath",  
             "description": "Organic blueberries from Hudson Valley farms supply antioxidants to rejuvenate skin and make it younger looking. Contains: olive and soy oils, organic blueberries, orange and tangerine essential oils.", 
             "brand": "SallyeAnder", 
             "url2": "", 
@@ -503,7 +503,7 @@
         "pk": 26, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows",  
+            "category": "Eyes Brows",  
             "description": "The Blush Brush features smooth, pliant bristles for a soft flush of color. Fluffy bristles designed to fit the apples of your cheeks provide expert blush and bronzer application. Made with 100% cruelty-free Taklon synthetic bristles. Duo-color fibers for precision application and blending. Sturdy sleek black handles for a comfortable, stabilizing grip.", 
             "brand": "Alima Pure", 
             "url2": "", 
@@ -514,7 +514,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/AP_Blush_brush_1024x1024_1024x1024_6c26217a-7322-4d24-8bc4-b5c2dce80710_1200x.jpeg?v=1570068936", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "shadow + liner brushes", 
+            "sub_categories": "Shadow Liner Brushes", 
             "price": "35.00", 
             "name": "Blush Brush"
         }
@@ -523,7 +523,7 @@
         "pk": 27, 
         "model": "products.database", 
         "fields": {
-            "category": "Hair + Nail", 
+            "category": "Hair Nail", 
             "description": "Revive your hair and restore bounce and shine to your locks with luscious Aloe and rare Prickly Pear cactus oil. Directions: Apply to wet hair. Massage into scalp and straight down to the ends. Rinse and rejoice! 100% Vegan. 0% Questionable. Paraben free, sulfate free, phthalate free, mineral oil free, petrolatum free, silicone free and cruelty free.", 
             "brand": "Acure", 
             "url2": "", 
@@ -543,7 +543,7 @@
         "pk": 28, 
         "model": "products.database", 
         "fields": {
-            "category": "Hair + Nail", 
+            "category": "Hair Nail", 
             "description": "Revive your hair and restore bounce and shine to your locks with luscious Aloe and rare Prickly Pear cactus oil. Directions: Apply to wet hair. Massage into scalp and straight down to the ends. Rinse and rejoice! 100% Vegan. 0% Questionable. Paraben free, sulfate free, phthalate free, mineral oil free, petrolatum free, silicone free and cruelty free.", 
             "brand": "Acure", 
             "url2": "", 
@@ -574,7 +574,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/brighten-1_1200x.jpg?v=1569366451", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "Oil + Serum", 
+            "sub_categories": "Oil Serum", 
             "price": "54.00", 
             "name": "Brighten Up Vitamin C Serum"
         }
@@ -623,7 +623,7 @@
         "pk": 32, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows", 
+            "category": "Eyes Brows", 
             "description": "This 2 in 1 Brow Duo Pencil glides on effortlessly to fill and define brows, the highlighter brightens to lift the arch creating well shaped natural looking eyebrows. Vegan Friendly. Step 1. Start with clean dry brows, place the pencil along the side of your nose to find where your brows should ideally start and angle the pencil from the outside of your nose to the outer corner of your eye to find where your brows should ideally end. Step 2. Using short dash-like strokes to mimic your natural hairs, softly fill in any sparse areas with a pencil. Step 3. Finally line directly beneath your eyebrows on your brow bone with the highlighter and blend with your finger. This will instantly make your brows appear more defined and arched", 
             "brand": "Lily Lolo", 
             "url2": "", 
@@ -634,7 +634,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/xpencil1_1.jpg.pagespeed.ic.MVf9P52kTEMedium_1024x1024_cb811c8a-c473-4858-93f8-39e5a2cfe984_1200x.jpg?v=1570065074", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "shadow + liner brushes", 
+            "sub_categories": "Shadow Liner Brushes", 
             "price": "16.00", 
             "name": "Brow Duo Pencil"
         }
@@ -643,7 +643,7 @@
         "pk": 33, 
         "model": "products.database", 
         "fields": {
-            "category": "Hair + Nail",  
+            "category": "Hair Nail",  
             "description": "This unique, scalp-healthy dry shampoo infuses Binchotan charcoal to draw impurities from the scalp and detoxify the scalp and hair. A complex of clay and tapioca & rice starches absorb excess oil at the roots to refresh, clean, and extend the life of your blowout. Witch Hazel extract helps to normalize oil production to prevent an oily scalp, making this dry shampoo a solution oriented product as opposed to just a temporary fix. Super-vitamin, Biotin, provides essential nutrients to the hair follicle to support healthy hair growth.", 
             "brand": "Briogeo", 
             "url2": "", 
@@ -683,7 +683,7 @@
         "pk": 35, 
         "model": "products.database", 
         "fields": {
-            "category": "Body + Bath",  
+            "category": "Body Bath",  
             "description": "Our hands are constantly in motion and exposed to the elements, so don't they deserve specially-crafted products to help them feel rejuvenated? Reward their hard work with this rich buttercream that moisturizes, softens, and deeply nourishes with anti-aging vitamins and antioxidants.", 
             "brand": "100% Pure", 
             "url2": "", 
@@ -703,7 +703,7 @@
         "pk": 36, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows",  
+            "category": "Eyes Brows",  
             "description": "The essential makeup brush for enhancing the contours of the lid and crease. Domed bristles fit the natural contour of your crease. Enhance the shape of your eye with a smoky finish or dramatic color.", 
             "brand": "Alima Pure", 
             "url2": "", 
@@ -714,7 +714,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/AP_Contour_shadow_brush_1024x1024_1024x1024_8af197bf-d3a5-4821-b5b9-e71a2c2f2614_1200x.jpeg?v=1570068938", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "shadow + liner brushes", 
+            "sub_categories": "Shadow Liner Brushes", 
             "price": "25.00", 
             "name": "Contour Shadow Brush"
         }
@@ -774,7 +774,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/oily_1200x.jpg?v=1569366483", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "Oil + Serum", 
+            "sub_categories": "Oil Serum", 
             "price": "26.00", 
             "name": "Daily Harmony for Oily Skin"
         }
@@ -783,7 +783,7 @@
         "pk": 40, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows", 
+            "category": "Eyes Brows", 
             "description": "Created with rich mineral pigments and certified organic oils, butters and waxes this mascara will instantly add life to your lashes without flaking, smudging or clumping. Though this formula is not 100% organic we made sure that it is 100% natural and effective!\u00a0Defining Formula - Creamy and rich, this unique formula separates and defines lashes naturally for an overall dramatic eye.", 
             "brand": "RMS Beauty", 
             "url2": "", 
@@ -843,7 +843,7 @@
         "pk": 43, 
         "model": "products.database", 
         "fields": {
-            "category": "Body + Bath", 
+            "category": "Body Bath", 
             "description": "Fresh and spirited. Playful and energizing. An invigorating unisex scent. Men and women can't get enough of it! Top notes: Exquisite citruses from all over the world! Persian lime, Italian Bergamot, Brazilian Orange, Florida grapefruit and lemon for a citrus splash. Middle: Cassis, lemongrass and the peddly soft orange flower play well with the energy and cleaness of spearmint and super grade basil. Base: The sensual warmth of cedar wood, naturally derived benzoin and a drop of Indonesian patchouli make Empower a comforting and traditional eau de parfum.Pour le Monde\u2019s certified 100% natural eau de parfums have impressive staying power. Since these fragrances do not contain any man-made chemical extenders, we suggest using them liberally, don\u2019t be afraid! Naturals work with your own chemistry and gently evolve, so you won\u2019t smell overpowering like synthetics.", 
             "brand": "Empower", 
             "url2": "", 
@@ -863,7 +863,7 @@
         "pk": 44, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows", 
+            "category": "Eyes Brows", 
             "description": "Bring a fresh-faced look to your routine with soft, creamy textures that soften on contact and melt into skin. Complete with 2 Multi-Stick shades (All or Me, Dreamer), and 2 pearlescent Illuminator shades (Cosmic Dancer, Summertime), combinations are endless and bring warmth to the skin with a natural lit from within glow.", 
             "brand": "Ilia Beauty", 
             "url2": "", 
@@ -874,7 +874,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/face-palette-1_1200x.jpg?v=1569363430", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "shadow + liner brushes", 
+            "sub_categories": "Shadow Liner Brushes", 
             "price": "42.00", 
             "name": "Essential Face Palette"
         }
@@ -903,7 +903,7 @@
         "pk": 46, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows", 
+            "category": "Eyes Brows", 
             "description": "These rich metallics can be worn as a soft, shimmering wash during the day or layered for sultry drama at night. Pressed with a blend of healing plant-based ingredients and 100% talc-free, they feel as good as they look.", 
             "brand": "Lily Lolo", 
             "url2": "", 
@@ -923,7 +923,7 @@
         "pk": 47, 
         "model": "products.database", 
         "fields": {
-            "category": "Body + Bath", 
+            "category": "Body Bath", 
             "description": "Our hands are constantly in motion and exposed to the elements, so don't they deserve specially-crafted products to help them feel rejuvenated? Reward their hard work with this rich buttercream that moisturizes, softens, and deeply nourishes with anti-aging vitamins and antioxidants.", 
             "brand": "100% Pure", 
             "url2": "", 
@@ -943,7 +943,7 @@
         "pk": 48, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows", 
+            "category": "Eyes Brows", 
             "description": "Luxurious mascara in deep rich black! Made with hydrating oils that nourish and condition lashes, while the waxes, rice powder, and other dynamic ingredients add thickness, definition, and a volumizing effect. Nu Evolution's perfectly shaped brush allows the formula to glide on smoothly and accentuate each lash.", 
             "brand": "Nu Evolution", 
             "url2": "", 
@@ -974,7 +974,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/eye-serum_1200x.jpg?v=1569366470", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "Oil + Serum", 
+            "sub_categories": "Oil Serum", 
             "price": "75.00", 
             "name": "Eye Serum"
         }
@@ -983,7 +983,7 @@
         "pk": 50, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows", 
+            "category": "Eyes Brows", 
             "description": "Pressed powder to fill in gaps and define brows in natural shades to match from light to dark hair along with a natural wax for precision grooming to hold brows in place, together this duo is perfect for creating immaculate brows.", 
             "brand": "Lily Lolo", 
             "url2": "", 
@@ -1023,7 +1023,7 @@
         "pk": 52, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows", 
+            "category": "Eyes Brows", 
             "description": "The new ILIA Finishing Powder Brush is designed with an angled dome shape to help push the powder into the skin instead of just sitting on the surface. Designed in the iconic ILIA finish, this brush\u2019s soft bristles are made with high-grade, synthetic Taklon, an easy-to-clean, cruelty-free material. Wash brush with mild soap and warm water.", 
             "brand": "Ilia Beauty", 
             "url2": "", 
@@ -1034,7 +1034,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/ILIA_Powder_Brush_1024x1024_1024x1024_f4a981bb-0351-4643-a72c-0bc52e6d370b_1200x.jpg?v=1570068940", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "shadow + liner brushes", 
+            "sub_categories": "Shadow Liner Brushes", 
             "price": "44.00", 
             "name": "Finishing Powder Brush"
         }
@@ -1043,7 +1043,7 @@
         "pk": 53, 
         "model": "products.database", 
         "fields": {
-            "category": "Body + Bath", 
+            "category": "Body Bath", 
             "description": "HollyBeth Organics USDA certified organic Flourish Calming Perfume features a blend of organic essential oils that evoke the feeling of tranquil summer days. Top notes of earthy cedarwood as well as crisp bergamot deliver a sunny introduction. Enchanting rose geranium in addition to the woody warmth of sweet marjoram and fresh chamomile dance as heart notes. Furthermore, heady ylang ylang anchors as a seductive base note. Together, this combination of essential oils creates a distinctive earthy citrus aroma that's designed to encourage a lively, optimistic and grounded outlook. A unique fragrance all will enjoy. Packaged in an elegant glass jar with roll-on applicator.", 
             "brand": "HollyBeth", 
             "url2": "", 
@@ -1083,7 +1083,7 @@
         "pk": 55, 
         "model": "products.database", 
         "fields": {
-            "category": "Body + Bath", 
+            "category": "Body Bath", 
             "description": "Pure flower fragrance fills a room with the intense scent of just-picked flowers. nature's bloom is transported indoors. blended with the purest natural-burning wax for 50 hours of breathing, watching, lighting and living. a slow, velvety and clean burn. topped with a cotton wick and scented petals, which can be emptied into a small dish to subtly scent a room. Fill the entire room with one of nature's most potent fragrances. the lavender whose scent is put into the wax of this scented candle originated from the highest altitudes where it thrives and maintains its fresh fragrance. it is known for its incredible calming effects, and now it's in a natural burning wax that lasts for 50 hours.", 
             "brand": "Red Flower", 
             "url2": "", 
@@ -1103,7 +1103,7 @@
         "pk": 56, 
         "model": "products.database", 
         "fields": {
-            "category": "Hair + Nail", 
+            "category": "Hair Nail", 
             "description": "Ginseng + Biotin Volumizing Shampoo is infused with ginseng, biotin & vitamin B5 to strengthen from root to tip. Maltodextrin (a natural sugar starch) thickens and separates each strand to enhance volume and fullness. Sulfate-free formula cleanses without stripping or dulling hair. For those with thin, fine, limp, and/or lifeless hair who want to kickstart growth while more immediately, increasing the appearance of thicker & fuller hair.", 
             "brand": "Briogeo", 
             "url2": "", 
@@ -1143,7 +1143,7 @@
         "pk": 58, 
         "model": "products.database", 
         "fields": {
-            "category": "Body + Bath", 
+            "category": "Body Bath", 
             "description": "HERBAL SKIN REMEDY salve has proven to be extremely effective in healing and improving the overall condition of the skin. It continues to receive incredible testimonials confirming the broad range of healing capability available in this simple salve remedy.", 
             "brand": "Leave + Root", 
             "url2": "", 
@@ -1163,7 +1163,7 @@
         "pk": 59, 
         "model": "products.database", 
         "fields": {
-            "category": "Body + Bath", 
+            "category": "Body Bath", 
             "description": "Our hands are constantly in motion and exposed to the elements, so don't they deserve specially-crafted products to help them feel rejuvenated? Reward their hard work with this rich buttercream that moisturizes, softens, and deeply nourishes with anti-aging vitamins and antioxidants.", 
             "brand": "100% Pure", 
             "url2": "", 
@@ -1183,7 +1183,7 @@
         "pk": 60, 
         "model": "products.database", 
         "fields": {
-            "category": "Body + Bath",  
+            "category": "Body Bath",  
             "description": "Ursa Major's robust all-natural deodorant eliminates underarm odor while absorbing excess moisture and soothing sensitive skin. - Eliminates odor-causing bacteria. 24-hour protection. Fresh, cooling aroma on application. 100% natural & toxin-free (no aluminum).  Non-staining formula. Aroma: A crisp and naturally cooling blend of eucalyptus, ginger, rosemary, grapefruit, chamomile and lemon.", 
             "brand": "Ursa Major", 
             "url2": "", 
@@ -1223,7 +1223,7 @@
         "pk": 62, 
         "model": "products.database", 
         "fields": {
-            "category": "Hair + Nail", 
+            "category": "Hair Nail", 
             "description": "The dream-come-true wash for curly hair, made with the finest natural & organic ingredients. It gently cleanses without stripping beneficial oils, and infuses essential nutrients for increased strength, shine, softness, and curl formation, resulting in beautiful, easy to manage frizz-free curls.", 
             "brand": "Evolvh", 
             "url2": "", 
@@ -1254,7 +1254,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/ic-sheet-mask_1_1024x1024_5c189a0c-9770-407f-832b-710b28a5a61f_1200x.jpg?v=1569371459", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "Masks + Exfoliants", 
+            "sub_categories": "Masks Exfoliants", 
             "price": "5.00", 
             "name": "Incredibly Clear Sheet Mask"
         }
@@ -1263,7 +1263,7 @@
         "pk": 64, 
         "model": "products.database", 
         "fields": {
-            "category": "Body + Bath", 
+            "category": "Body Bath", 
             "description": "pure flower fragrance fills a room with the intense scent of just-picked flowers. nature's bloom is transported indoors. blended with the purest natural-burning wax for 50 hours of breathing, watching, lighting and living. a slow, velvety and clean burn. topped with a cotton wick and scented petals, which can be emptied into a small dish to subtly scent a room. fill any room with the fragrance of freshly picked flowers, blended with natural burning wax that gives off a clean burn. the scented petals on top gives a great final touch to the already relaxing fragrance. it can be used anywhere, and it burns for a very long time. put it on a small dish and scatter the petals around it to bring this wonderful fragrance into the home.", 
             "brand": "Red Flower", 
             "url2": "", 
@@ -1283,7 +1283,7 @@
         "pk": 65, 
         "model": "products.database", 
         "fields": {
-            "category": "Body + Bath", 
+            "category": "Body Bath", 
             "description": "For dry, sensitive or sunburned skin- Reflective, tranquil, and calm.", 
             "brand": "SallyeAnder", 
             "url2": "", 
@@ -1303,7 +1303,7 @@
         "pk": 66, 
         "model": "products.database", 
         "fields": {
-            "category": "Body + Bath",  
+            "category": "Body Bath",  
             "description": "A dreamy lavender soap. Mixed with pure lavender essential oil to create a delightfully dark purple swirl and oatmeal for an effective exfoliation. This lovely lavender is soothing and calming, great for just before bed, or in a bath, sure to relieve the stress and revitalize your skin. Each bar is bound to have you looking forward to your next shower or bath.", 
             "brand": "SallyeAnder", 
             "url2": "", 
@@ -1323,7 +1323,7 @@
         "pk": 67, 
         "model": "products.database", 
         "fields": {
-            "category": "Hair + Nail", 
+            "category": "Hair Nail", 
             "description": "A strengthening and reparative leave-in deep conditioner that provides repair benefits beyond an in-shower experience and produces healthy, stronger hair in between washes and heat styling.", 
             "brand": "Briogeo", 
             "url2": "", 
@@ -1443,7 +1443,7 @@
         "pk": 73, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows", 
+            "category": "Eyes Brows", 
             "description": "Lily Lolo Natural Vegan Mascara is easy to apply and will volumize and lengthen lashes to produce a dramatic effect. An everyday essential for fabulous looking lashes. Suitable for all eye colours. Lily Lolo Mascara is soft and creamy and has no artificial ingredients, just long lasting colour with a smooth texture.", 
             "brand": "Lily Lolo", 
             "url2": "", 
@@ -1483,7 +1483,7 @@
         "pk": 75, 
         "model": "products.database", 
         "fields": {
-            "category": "Hair + Nail",  
+            "category": "Hair Nail",  
             "description": "Provide moisture to dry and damaged hair, leaving it soft, manageable and ready to rock. Organic argan oil, argan stem cells, CoQ10, organic sea buckthorn oil and organic pumpkin seed oil add shine and lock in moisture.", 
             "brand": "Acure", 
             "url2": "", 
@@ -1503,7 +1503,7 @@
         "pk": 76, 
         "model": "products.database", 
         "fields": {
-            "category": "Hair + Nail", 
+            "category": "Hair Nail", 
             "description": "Bring intense moisture to hair that needs some love. Organic pumpkin seed and argan oil leaves nothing behind but shine. Hydrating formula, for dry, damaged & curly. 100% Vegan 0% Questionable. Paraben free, sulfate free, phthalate free, mineral oil free, petrolatum free, silicone free and cruelty free.", 
             "brand": "Acure", 
             "url2": "", 
@@ -1523,7 +1523,7 @@
         "pk": 77, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows", 
+            "category": "Eyes Brows", 
             "description": "Mesmerize Eyeliner glides on like a dream delivering a smooth precise line for a perfectly defined eye. You can also use the blending tool for a seductive, smoky eye. Finally, professional performance in an organic eyeliner. Mesmerize Eyeliner contains soothing Chamomile Flower and is Gluten Free. This eyeliner is designed to moisturize and nourish the eye area without the harsh chemicals and skin-aging adhesives found in most eye cosmetics.", 
             "brand": "Vapour Beauty", 
             "url2": "", 
@@ -1543,7 +1543,7 @@
         "pk": 78, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows", 
+            "category": "Eyes Brows", 
             "description": "For expert eyeshadow blending, the Mini Blending Brush features softly angled bristles. Diffuse and blend eye pigment to compose a dramatic or subtle finish with angled bristles that fit the contours of your eyes. Made with 100% cruelty-free Taklon synthetic bristles. Duo-color fibers for precision application and blending. Sturdy sleek black handles for a comfortable, stabilizing grip.", 
             "brand": "Alima Pure", 
             "url2": "", 
@@ -1554,7 +1554,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/AP_Mini_blending_brush_1024x1024_1024x1024_fb1341e7-5f4c-4aa3-9298-46764d0c691f_1200x.jpeg?v=1570068938", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "shadow + liner brushes", 
+            "sub_categories": "Shadow Liner Brushes", 
             "price": "25.00", 
             "name": "Mini Blending Eyeshadow Brush"
         }
@@ -1563,7 +1563,7 @@
         "pk": 79, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows", 
+            "category": "Lips", 
             "description": "ILIA Multi-Sticks combine organic ingredients with the healing properties of Vitamin E and Shea Butter. Apply to cheeks, lips and eyes for a sheer blush of color.", 
             "brand": "Ilia Beauty", 
             "url2": "", 
@@ -1574,7 +1574,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/multi-stick-1_1200x.png?v=1569363411", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "shadow + liner brushes", 
+            "sub_categories": "Lipstick", 
             "price": "34.00", 
             "name": "Multi Stick"
         }
@@ -1583,7 +1583,7 @@
         "pk": 80, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows", 
+            "category": "Eyes Brows", 
             "description": "Natural Definition Brow Pencil is a smooth, blendable eyebrow pencil for precise application suited for subtle enhancement to bold definition. It glides on smoothly, blends beautifully, and lasts all day.", 
             "brand": "Alima Pure", 
             "url2": "", 
@@ -1594,7 +1594,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/Light_1024x1024_1024x1024_140cab69-fc89-49b5-9ffa-afca7a4e39c0_1200x.jpeg?v=1570065073", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "shadow + liner brushes", 
+            "sub_categories": "Shadow Liner Brushes", 
             "price": "18.00", 
             "name": "Natural Definition Brow Pencil"
         }
@@ -1603,7 +1603,7 @@
         "pk": 81, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows", 
+            "category": "Eyes Brows", 
             "description": "Natural Definition Mascara is richly pigmented and glides on beautifully. Provitamin B5, Jojoba oil, and natural beeswax nourish and condition, leaving lashes healthy and lush. The rubber bristled wand defines and separates, keeping lashes clump free.", 
             "brand": "Alima Pure", 
             "url2": "", 
@@ -1623,7 +1623,7 @@
         "pk": 82, 
         "model": "products.database", 
         "fields": {
-            "category": "Body + Bath", 
+            "category": "Body Bath", 
             "description": "The key ingredient in PiperWai is activated charcoal, which neutralizes odor and absorbs moisture without aluminum, parabens, or synthetic fragrances. No stains, no irritation - just clean, fresh pits. Naturally. 2.7 oz ( 35% more product than the jar!) Same PiperWai scent you know and love. Same PiperWai effectiveness you trust. The new and improved stick applicator glides on smooth and its odor-neutralizing capabilities are the same quality you'd expect from PiperWai.", 
             "brand": "PiperWai", 
             "url2": "", 
@@ -1643,7 +1643,7 @@
         "pk": 83, 
         "model": "products.database", 
         "fields": {
-            "category": "Body + Bath", 
+            "category": "Body Bath", 
             "description": "Ursa Major is delighted to introduce No B.S., the unscented, baking soda-free version of their best-selling Hoppin' Fresh Deodorant. This uniquely effective, all-natural deodorant eliminates underarm odor and absorbs excess moisture to provide long-lasting protection for even the most sensitive skin. Eliminates odor-causing bacteria. Offers 24-hour unscented protection. Silky-smooth, non-staining formula. Great for sensitive underarms. Baking soda, fragrance & aluminum-free. 100% naturally-derived and toxin-free. Lasts 3-4 months with daily use.", 
             "brand": "Ursa Major", 
             "url2": "", 
@@ -1663,7 +1663,7 @@
         "pk": 84, 
         "model": "products.database", 
         "fields": {
-            "category": "Hair + Nail", 
+            "category": "Hair Nail", 
             "description": "This luxurious, moisturizing shampoo formulated for All Hair Textures with Normal to Dry hair and scalp conditions. Aloe vera, gentle natural cleansers and potent herbal infusions work in perfect harmony to effectively remove impurities and excess oil. Rich plant oils and distinct herbal infusions create potent synergy to treat scalp conditions, retain hair moisture, soften and add shine while stimulating follicle circulation to increase flow of nourishment, encouraging strong, continued hair growth.", 
             "brand": "Josh Rosebrook", 
             "url2": "", 
@@ -1723,7 +1723,7 @@
         "pk": 87, 
         "model": "products.database", 
         "fields": {
-            "category": "Body + Bath", 
+            "category": "Body Bath", 
             "description": "Red Flower's Petal Topped Candles fills the room with the intense scent of just-picked flowers using pure flower fragrance. Nature's bloom is transported indoors for 50 hours of breathing, watching, lighting and living. Topped with a cotton wick and scented petals, which can be emptied into a small dish to subtly scent a room. nothing refreshes like the sea that cleanses the earth and leaves it with nothing but new coastal air that brings the smell of flowers, herbs, and trees near the sea. enjoy the smell of this petal topped candle that's mixed with blends of copaiba and clove oils and some eucalyptus. it can make your feel healthier, and more fresh.", 
             "brand": "Red Flower", 
             "url2": "", 
@@ -1743,7 +1743,7 @@
         "pk": 88, 
         "model": "products.database", 
         "fields": {
-            "category": "Body + Bath", 
+            "category": "Body Bath", 
             "description": "For sensitive skin. An aromatic blend enriched with our very own organically grown rose petals.", 
             "brand": "SallyeAnder", 
             "url2": "", 
@@ -1783,7 +1783,7 @@
         "pk": 90, 
         "model": "products.database", 
         "fields": {
-            "category": "Body + Bath", 
+            "category": "Body Bath", 
             "description": "Indulge your skin with this clean, green, velvety body lotion. Light enough for summer, yet rich enough for winter, our lotion provides deep, soothing hydration all year long. Aroma: A verdant blend of essential oils with traces of sweet orange, bergamot and cedar.", 
             "brand": "Ursa Major", 
             "url2": "", 
@@ -1803,7 +1803,7 @@
         "pk": 91, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows", 
+            "category": "Eyes Brows", 
             "description": "Sharply angled and firm bristles make this brush the go-to for a defined line, smoky eye or bold brows. Pairs with powder liners, shadows and brow gels. Made with 100% cruelty-free Taklon synthetic bristles. Duo-color fibers for precision application and blending. Sturdy sleek black handles for a comfortable, stabilizing grip.", 
             "brand": "Alima Pure", 
             "url2": "", 
@@ -1814,7 +1814,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/AP_Precision_angle_brush_1024x1024_1024x1024_7fc2c65f-f20e-449a-b15a-81f1bb5b1704_1200x.jpg?v=1570068939", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "shadow + liner brushes", 
+            "sub_categories": "Shadow Liner Brushes", 
             "price": "25.00", 
             "name": "Precision Angle Liner Brush"
         }
@@ -1823,7 +1823,7 @@
         "pk": 92, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows", 
+            "category": "Eyes Brows", 
             "description": "ward Winning Lily Lolo Pressed Mineral Blush is available in both matte and shimmer. Lily Lolo pressed blush is the healthy choice for adding a natural flush to your cheeks. Choose from a gorgeous range of pinks, peaches and earthy browns. Silky, creamy texture for a smooth application. Lightweight, color can be built in light layers for a more intense look. Anti-ageing with sea holly extract and argan oil. Moisturizing with jojoba oil. Natural anti-oxidant and anti-bacterial protection. Vegan friendly - Except for Burst Your Bubble & In The Pink. Range of finishes from matt to sheen. Fragrance and talc free. Travel friendly. Oil free. Long-wearing and stays color true all day. Sheer and light, color is built in layers using an angled blush brush", 
             "brand": "Lily Lolo", 
             "url2": "", 
@@ -1834,7 +1834,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/blush-1_1200x.gif?v=1569363415", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "shadow + liner brushes", 
+            "sub_categories": "Shadow Liner Brushes", 
             "price": "20.00", 
             "name": "Pressed Blush"
         }
@@ -1843,7 +1843,7 @@
         "pk": 93, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows", 
+            "category": "Eyes Brows", 
             "description": "Alima Pressed Eyeshadows provide bold color payoff in many vivid shades while hydrating and restoring the skin. The silky-smooth powder blends easily for a weightless, long-lasting finish on the lids or as a liner. Vegan and gluten free. Avocado Oil hydrates and moisturizes to increase epidermal elasticity. Jojoba Oil stimulates collagen production. Rice Powder is absorbent, soothing, and rich with vitamins", 
             "brand": "Alima Pure", 
             "url2": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/Icon_1024x1024_622c3519-dce8-4bc5-9a7a-66b0239c8258_1200x.jpg?v=1570065065", 
@@ -1863,7 +1863,7 @@
         "pk": 94, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows", 
+            "category": "Eyes Brows", 
             "description": "ILIA Pure Eyeliner brings rich, creamy color to the eyes that blends and builds for a day to night look. Packed with the healing oils of Avocado and Castor Seed, they work alongside soothing oils of Coconut to moisturize and protect the delicate area of the eye.", 
             "brand": "Ilia Beauty", 
             "url2": "", 
@@ -1883,7 +1883,7 @@
         "pk": 95, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows", 
+            "category": "Eyes Brows", 
             "description": "ILIA\u2019s mascaras reference the film noir era. Naturally preserved, Phenoxyethanol free. All Mascaras are made with 100% natural dye. 42% Organic. Vegan.", 
             "brand": "Ilia Beauty", 
             "url2": "", 
@@ -1903,7 +1903,7 @@
         "pk": 96, 
         "model": "products.database", 
         "fields": {
-            "category": "Hair + Nail", 
+            "category": "Hair Nail", 
             "description": "Rosarco Repair Shampoo contains a nourishing and reparative blend of rosehip, argan & coconut oils (Rosarco) and vitamin E to combat dryness, restore shine, and strengthen hair from root to tip. This creamy, sulfate-free shampoo removes dirt and buildup without stripping the hair of moisture.", 
             "brand": "Briogeo", 
             "url2": "", 
@@ -1943,7 +1943,7 @@
         "pk": 98, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows", 
+            "category": "Eyes Brows", 
             "description": "Richly-pigmented Satin Matte Eyeliner is the perfect complement to mineral eyeshadow. Apply with a damp brush for precise definition or apply dry for a soft, smoky effect.", 
             "brand": "Alima Pure", 
             "url2": "", 
@@ -1974,7 +1974,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/ss-bio-mask_1024x1024_ed5d64bc-b40d-471b-b0f5-e14270cd6137_1200x.jpg?v=1569371458", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "Masks + Exfoliants", 
+            "sub_categories": "Masks Exfoliants", 
             "price": "6.00", 
             "name": "Seriously Soothing Biocellulose Mask"
         }
@@ -1983,7 +1983,7 @@
         "pk": 100, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows", 
+            "category": "Eyes Brows", 
             "description": "Designed in the iconic ILIA finish, this brush\u2019s soft bristles are made with high-grade, synthetic Taklon, an easy-to-clean, cruelty-free material. Wash brush with mild soap and warm water.", 
             "brand": "Ilia Beauty", 
             "url2": "", 
@@ -1994,7 +1994,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/shade_blend_7_1024x1024_d1f152ab-5c4e-49aa-ba8d-68561f33f89b_1200x.jpg?v=1570068940", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "shadow + liner brushes", 
+            "sub_categories": "Shadow Liner Brushes", 
             "price": "34.00", 
             "name": "Shade and Blend Shadow Brush"
         }
@@ -2023,7 +2023,7 @@
         "pk": 102, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows", 
+            "category": "Eyes Brows", 
             "description": "ILIA Silken Shadow Stick glides on effortlessly for a velvety wash of metallic color. Soothing oils of coconut and olive help protect the delicate area of the eye. 100% Natural Dye, 42% Organic, Vegan.", 
             "brand": "Ilia Beauty", 
             "url2": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/shadow-stick-next-to-you_1200x.jpg?v=1569359945", 
@@ -2043,7 +2043,7 @@
         "pk": 103, 
         "model": "products.database", 
         "fields": {
-            "category": "Hair + Nail", 
+            "category": "Hair Nail", 
             "description": "Botanical boost for frizzed, fried, and frustrated hair! An ultra-hydrating combo of marula oil and coconut water that tranforms hair from frizzed and frustrated to smooth and shiny.", 
             "brand": "Acure", 
             "url2": "", 
@@ -2063,7 +2063,7 @@
         "pk": 104, 
         "model": "products.database", 
         "fields": {
-            "category": "Hair + Nail", 
+            "category": "Hair Nail", 
             "description": "Ultra-hydrating with marula oil and coconut water, use on frizzed, fried, frustrated, blown out, straightened, color treated, grumpy and generally worked over hair that takes a daily beating.", 
             "brand": "Acure", 
             "url2": "", 
@@ -2103,7 +2103,7 @@
         "pk": 106, 
         "model": "products.database", 
         "fields": {
-            "category": "Eyes + Brows", 
+            "category": "Eyes Brows", 
             "description": "The Lily Lolo Small Fan Brush is ideal for a soft focus, lightweight application of any of our mineral powders, a sheer application of blusher and bronzer, to soften harsh lines and particularly good for illuminating and highlighting or simply to whip away eye shadow fall out.", 
             "brand": "Lily Lolo", 
             "url2": "", 
@@ -2114,7 +2114,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/800_x_800_7_1024x1024_54d102af-dcf7-4d8d-ba8b-fb7086e5656c_1200x.png?v=1570068941", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "shadow + liner brushes", 
+            "sub_categories": "Shadow Liner Brushes", 
             "price": "12.00", 
             "name": "Small Fan Brush"
         }
@@ -2123,7 +2123,7 @@
         "pk": 107, 
         "model": "products.database", 
         "fields": {
-            "category": "Hair + Nail", 
+            "category": "Hair Nail", 
             "description": "This lightweight, water-based formula is made with raw lecithin, a powerful, natural extract that fortifies weak strands and prevents future breakage. A duo of rice bran and cumin seed oil guards against heat and UV damage, while bergamot fruit oil softens and detangles, preventing flyaways.", 
             "brand": "Evolvh", 
             "url2": "", 
@@ -2134,7 +2134,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/smartstart_leave_in_1024x1024_a8474097-7bf5-44df-9ba0-fc4da01dc851_1200x.jpg?v=1569369724", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "Leave-in Conditioner", 
+            "sub_categories": "Leavein Conditioner", 
             "price": "28.00", 
             "name": "Smart Start Leave-in Conditioner"
         }
@@ -2143,7 +2143,7 @@
         "pk": 108, 
         "model": "products.database", 
         "fields": {
-            "category": "Hair + Nail", 
+            "category": "Hair Nail", 
             "description": "This lightweight, water-based formula is made with raw lecithin, a powerful, natural extract that fortifies weak strands and prevents future breakage. A duo of rice bran and cumin seed oil guards against heat and UV damage, while bergamot fruit oil softens and detangles while preventing flyaways. Flax, a bonus ingredient, adds fullness.", 
             "brand": "Evolvh", 
             "url2": "", 
@@ -2154,7 +2154,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/8.5_oz_SmartVolume_Front_580x_2x_1024x1024_bf9a12c1-fddf-45a7-ad06-9f142d988a8d_1200x.jpg?v=1569369726", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "Leave-in Conditioner", 
+            "sub_categories": "Leavein Conditioner", 
             "price": "29.00", 
             "name": "Smart Volume Leave-in Conditioner"
         }
@@ -2163,7 +2163,7 @@
         "pk": 109, 
         "model": "products.database", 
         "fields": {
-            "category": "Hair + Nail", 
+            "category": "Hair Nail", 
             "description": "The ultimate hydrating conditioner for every curl type - experience the smoothest hair you've ever had with increased strength, shine, softness and curl formation. Simply dreamy is an understatement.", 
             "brand": "Evolvh", 
             "url2": "", 
@@ -2183,7 +2183,7 @@
         "pk": 110, 
         "model": "products.database", 
         "fields": {
-            "category": "Body + Bath", 
+            "category": "Body Bath", 
             "description": "A wonderful kitchen bar or for the tackle box. Perfect for chefs and fishermen! Is effective at removing annoying odors from hands such as seafood, garlic and onions. Great one-of-a-kind gift that is both practical and useful.", 
             "brand": "SallyeAnder", 
             "url2": "", 
@@ -2214,7 +2214,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/facial-oil-1_1200x.jpg?v=1569366456", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "Oil + Serum", 
+            "sub_categories": "Oil Serum", 
             "price": "32.00", 
             "name": "Squalane Facial Oil"
         }
@@ -2223,7 +2223,7 @@
         "pk": 112, 
         "model": "products.database", 
         "fields": {
-            "category": "Body + Bath", 
+            "category": "Body Bath", 
             "description": "Brighten your day with a boost of refreshing citrus. Sweet orange, cloves, CoQ10 and argan oil leave your skin feeling super soft and extra-energized. 100% VEGAN. Paraben free, sulfate free, phthalate free, mineral oil free, petrolatum free, silicone free and cruelty free.", 
             "brand": "Acure", 
             "url2": "", 
@@ -2243,7 +2243,7 @@
         "pk": 113, 
         "model": "products.database", 
         "fields": {
-            "category": "Hair + Nail", 
+            "category": "Hair Nail", 
             "description": "Many stylists call SuperFinish the perfect product. It delivers brilliant shine, de-frizzes and controls flyaways. Plus it moisturizes and protects without being greasy or adding weight - an incredible alternative to oils.", 
             "brand": "Evolvh", 
             "url2": "", 
@@ -2254,7 +2254,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/8.5oz_Super_Finish_1024x1024_763c73b7-0b59-4a03-adc7-d051655b5728_1200x.jpg?v=1569369710", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "Treatment + Styling", 
+            "sub_categories": "Treatment Styling", 
             "price": "32.00", 
             "name": "Superfinish Polishing Balm"
         }
@@ -2303,7 +2303,7 @@
         "pk": 116, 
         "model": "products.database", 
         "fields": {
-            "category": "Hair + Nail", 
+            "category": "Hair Nail", 
             "description": "This uber-versatile botanical formula is ideal for creating virtually any look. TotalControl adds fullness and volume to create gorgeous curls or makes sleek and straight hair when used with a flat iron. This product feels virtually weightless and leaves hair soft, shiny and without frizz. TotalControl will preserve your amazing look for days.", 
             "brand": "Evolvh", 
             "url2": "", 
@@ -2314,7 +2314,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/totalcontrol_1024x1024_02b4b3d1-7953-45e1-97de-6b31ce4c8267_1200x.jpg?v=1569369727", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "Teatment + Styling", 
+            "sub_categories": "Teatment Styling", 
             "price": "11.00", 
             "name": "Total Control Styling Creme"
         }
@@ -2334,7 +2334,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/serum-foundation-1_1200x.jpg?v=1569360062", 
             "color4": "", 
             "url3": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/serum-foundation-11_1200x.jpg?v=1569360062", 
-            "sub_categories": "Oil + Serum", 
+            "sub_categories": "Oil Serum", 
             "price": "54.00", 
             "name": "True Skin Serum Foundation"
         }
@@ -2343,7 +2343,7 @@
         "pk": 118, 
         "model": "products.database", 
         "fields": {
-            "category": "Hair + Nail", 
+            "category": "Hair Nail", 
             "description": "This 5-In-One botanical formula truly does everything: creates volume, holds style, de-frizzes, adds shine, or defines curls into smooth ringlets. Its an all-in-one amazingly lightweight lotion.", 
             "brand": "Evolvh", 
             "url2": "", 
@@ -2354,7 +2354,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/8.5_oz_Ultimate_Front_580x_2x_1024x1024_b86b80c2-240f-49ba-ae05-790b7de1cb99_1200x.jpg?v=1569369715", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "Teatment + Styling", 
+            "sub_categories": "Teatment Styling", 
             "price": "28.00", 
             "name": "Ultimate Styling Lotion"
         }
@@ -2374,7 +2374,7 @@
             "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/8.5oz_Ultra_Repair_580x_2x_1024x1024_82b166af-4265-4256-a18a-57aceb7448f9_1200x.jpg?v=1569369717", 
             "color4": "", 
             "url3": "", 
-            "sub_categories": "Masks + Exfoliants", 
+            "sub_categories": "Masks Exfoliants", 
             "price": "48.00", 
             "name": "Ultra Repair Reconstructing Masque"
         }
@@ -2383,7 +2383,7 @@
         "pk": 120, 
         "model": "products.database", 
         "fields": {
-            "category": "Hair + Nail", 
+            "category": "Hair Nail", 
             "description": "EVOLVh's vegan and paraben-free formula is versatile enough to tame a spectrum of hair types, from straight to curly, and fine to super thick. It detangles, adds shine, and is also safe for chemically-treated or colored hair. Active ingredients include wild pansy, sweet clover, and apricot extracts - all of which contain EVOLVh's proprietary phytoblend of nourishing antioxidants - plus amino and fatty acids which restore hair from the inside out, providing anti-aging benefits.", 
             "brand": "Evolvh", 
             "url2": "", 
@@ -2403,7 +2403,7 @@
         "pk": 121, 
         "model": "products.database", 
         "fields": {
-            "category": "Hair + Nail", 
+            "category": "Hair Nail", 
             "description": "Color safe and great for all hair types, this beloved shampoo balances pH levels. EVOLVh's proprietary phytoblend of nourishing antioxidants, plus amino and fatty acids restore hair from the inside out, while providing anti-aging benefits.", 
             "brand": "Evolvh", 
             "url2": "", 
@@ -2443,7 +2443,7 @@
         "pk": 123, 
         "model": "products.database", 
         "fields": {
-            "category": "Hair + Nail", 
+            "category": "Hair Nail", 
             "description": "Build dynamic volume with intense lightweight moisture! Limp locks will be a thing of the past, because your hair begin to feel thicker, fuller, and uplifted. Quinoa protein extract supports keratin. Argan Oil + Babassu Oil provide lightweight moisture for root and scalp maintenance. Echinacea Stem Cells promote cellular regeneration at the root level.", 
             "brand": "Acure", 
             "url2": "", 
@@ -2463,7 +2463,7 @@
         "pk": 124, 
         "model": "products.database", 
         "fields": {
-            "category": "Body + Bath", 
+            "category": "Body Bath", 
             "description": "A delicious blend of organic blueberries and herbs. Winter's Eve is a mix of creamy and exfoliating all in one bar. With each use the bar becomes more beautiful. We use real local Fishkill Farms organic blueberries!", 
             "brand": "SallyeAnder", 
             "url2": "", 
