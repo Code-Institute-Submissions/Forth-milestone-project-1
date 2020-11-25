@@ -8,18 +8,17 @@ from .models import database
 def all_products(request):
     products = database.objects.all()
     
-
-    if request.GET: 
-        brand = request.GET.get("brand")
-        category = request.GET.get("category")
-        products = database.objects.filter(category=category)
+    if 'brand' in request.GET:
+        brand = request.GET.get('brand')
         products = database.objects.filter(brand=brand)
-        products = database.objects.filter(sub_categories=brand)
-        
-       
-        
     
+    if 'subcategory' in request.GET:
+        subcategory = request.GET.get('subcategory')
+        products = database.objects.filter(sub_categories=subcategory)
     
+    if 'category' in request.GET:
+        category = request.GET.get('category')
+        products = database.objects.filter(category=category)
     context = {
         'products': products
         }
