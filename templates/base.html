@@ -42,7 +42,7 @@
             <div class="container-fluid w-100 my-auto" >
                 <div class="row bg-white">
                         <div class="col-12 col-lg-4 col-md-4 col-sm-10 col-xs-10 ml-5 my-auto py-1 py-lg-0">
-                            <form method="GET" action="">
+                            <form method="GET" action="{% url 'all_products' %}">
                                 <div class="input-group border border-black rounded-0">
                                     <div class="input-group-append">
                                         <button class="form-control btn btn-black border border-white rounded-0" style="color: grey; margin-left:5px; margin-right:-10px;" type="submit">
@@ -125,17 +125,7 @@
                                                 <li><a href="{% url 'all_products' %}?subcategory=Candles">Candles</a></li>
                                             </ul>
                                         </div>
-                                        <div class="divider col-md-2">
-                                            <h4 class="row mega-title"><a href="{% url 'all_products' %}?category=Eyes Brows">Eyes + Brows</a></h4>
-                                            <ul class="description">
-                                                <li><a href="{% url 'all_products' %}?subcategory=Brow care">Brow care</a> </li>
-                                                <li><a href="{% url 'all_products' %}?subcategory=Eyeliner">Eyeliner</a></li>
-                                                <li><a href="{% url 'all_products' %}?subcategory=Eyeshadow">Eyeshadow</a></li>
-                                                <li><a href="{% url 'all_products' %}?subcategory=Mascara">Mascara</a></li>
-                                                <li><a href="{% url 'all_products' %}?subcategory=Shadow Liner Brushes">Shadow + Liner Brushes</a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="divider col-md-2">
+                                                                                <div class="divider col-md-2">
                                             <h4 class="row mega-title"><a href="{% url 'all_products' %}?category=Hair Nail">Hair + Nail</a></h4>
                                             <ul class="description">
                                                 <li><a href="{% url 'all_products' %}?subcategory=Conditioner">Conditioner</a> </li>
@@ -145,6 +135,16 @@
                                                 <li><a href="{% url 'all_products' %}?subcategory=Treatment Styling">Treatment + Styling</a></li>
                                             </ul>
                                         </div>
+                                        <div class="divider col-md-2">
+                                            <h4 class="row mega-title"><a href="{% url 'all_products' %}?category=Eyes Brows">Eyes + Brows</a></h4>
+                                            <ul class="description">
+                                                <li><a href="{% url 'all_products' %}?subcategory=Eyeliner">Eyeliner</a></li>
+                                                <li><a href="{% url 'all_products' %}?subcategory=Eyeshadow">Eyeshadow</a></li>
+                                                <li><a href="{% url 'all_products' %}?subcategory=Mascara">Mascara</a></li>
+                                                <li><a href="{% url 'all_products' %}?subcategory=Shadow Liner Brushes">Shadow + Liner Brushes</a></li>
+                                            </ul>
+                                        </div>
+
                                         <div class="divider col-md-2">
                                             <h4 class="row mega-title"><a href="{% url 'all_products' %}?category=Lips">Lips</a></h4>
                                             <ul class="description">
@@ -204,8 +204,22 @@
     </header>
 
     {% if messages %}
-        <div class="message-container"></div>
-    {% endif %}   
+        <div class="message-container">
+            {% for message in messages %}
+                {% with message.level as level %}
+                    {% if level == 40 %}
+                        {% include 'includes/toasts/toast_error.html' %}
+                    {% elif level == 30 %}
+                        {% include 'includes/toasts/toast_warning.html' %}
+                    {% elif level == 25 %}
+                        {% include 'includes/toasts/toast_success.html' %}
+                    {% else %}
+                        {% include 'includes/toasts/toast_info.html' %}
+                    {% endif %}
+                {% endwith %}
+            {% endfor %}
+        </div>
+    {% endif %}  
 
     {% block page_header %} 
     {% endblock %}
@@ -299,8 +313,41 @@
             }
         }
     </script>
+    <script type="text/javascript"> 
+        $(function() {
+            $('#reviewlink').click(function() {
+                $('#myform').toggle();
+                return false;
+            });        
+        });
+    </script>
 
+ 
+    <script>
+        $(".select").click(function() {
+            var is_open = $(this).hasClass("open");
+            if (is_open) {
+                $(this).removeClass("open");
+            } else {
+                $(this).addClass("open");
+            }
+        });
 
+        $(".select li").click(function() {
+            var selected_value = $(this).html();
+            var first_li = $(".select li:first-child").html();
+            $(".select li:first-child").html(selected_value);
+            $(this).html(first_li);
+        });
+
+        $(document).mouseup(function(event) {
+            var target = event.target;
+            var select = $(".select");
+            if (!select.is(target) && select.has(target).length === 0) {
+                select.removeClass("open");
+            }
+        });
+    </script>
     {% endblock %}   
   </body>
 </html>
