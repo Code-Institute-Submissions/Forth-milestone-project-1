@@ -18,7 +18,20 @@
         <span class="font-italic">Page 1 of 1</span>
     </div>
     {% endfor %}
-    
+    <div class="row ">
+        <div class="col-12 col-md-6 order-lg-last justify-content-lg-end">
+            <div class="sort-select-wrapper w-50">
+                <select id="sort-selector" class="custom-select custom-select-sm rounded-0 border">
+                    <option value="reset">Sort by...</option>
+                    <option value="price_asc"><a href="{% url 'all_products' %}?sort=price&direction=asc" class="dropdown-item">Price (low to high)</a></option>
+                    <option value="price_desc"><a href="{% url 'all_products' %}?sort=price&direction=desc" class="dropdown-item">Price (high to low)</a></option>
+                    <option value="name_asc"><a href="{% url 'all_products' %}?sort=name&direction=asc" class="dropdown-item">Name (A-Z)</a></option>
+                    <option value="name_desc"><a href="{% url 'all_products' %}?sort=name&direction=desc" class="dropdown-item">Name (Z-A)</a></option>
+                    
+                </select>
+            </div>
+        </div>
+    </div>
     
     <div id="main-wrap">
         <div id="sidebar" class="col-lg-8 col-md-8 col-12">
@@ -33,7 +46,6 @@
                         <a href="{% url 'all_products' %}?brand=Evolvh"><li>Evolvh</li></a>
                         <a href="{% url 'all_products' %}?brand=Ilia Beauty"><li>Ilia Beauty</li></a>
                         <a href="{% url 'all_products' %}?brand=Lily Lolo"><li>Lily Lolo</li></a>
-                        <a href="{% url 'all_products' %}?brand=Moon Juice"><li>Moon Juice</li></a>
                         <a href="{% url 'all_products' %}?brand=Nu Evolution"><li>Nu Evolution</li></a>
                         <a href="{% url 'all_products' %}?brand=RMS Beauty"><li>RMS Beauty</li></a>
                         <a href="{% url 'all_products' %}?brand=SallyeAnder"><li>SallyeAnder</li></a>
@@ -56,7 +68,7 @@
                         <span class="fa fa-star"></span>
                         <span class="heading">review 1</span>
                     </div>
-                    <p class="text-center mt-1">{{ product.price}}</p>
+                    <p class="text-center mt-1">${{ product.price}}</p>
                 </a>
             </div>
             {% endfor %}

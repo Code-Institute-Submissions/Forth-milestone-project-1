@@ -3,6 +3,7 @@ from django.conf import settings
 from django.db.models import Count
 from django.contrib import messages
 from django.db.models.aggregates import Max
+from django.db.models.functions import Lower
 from django.db.models import Q
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.views.generic import ListView
@@ -13,28 +14,48 @@ from .models import database
 def all_products(request):
     products = database.objects.all()
     
-    if 'brand' in request.GET:
-        brand = request.GET.get('brand')
-        products = database.objects.filter(brand=brand)
-    
-    if 'subcategory' in request.GET:
-        subcategory = request.GET.get('subcategory')
-        products = database.objects.filter(sub_categories=subcategory)
-    
-    if 'category' in request.GET:
-        category = request.GET.get('category')
-        products = database.objects.filter(category=category)
-
-
-    if 'q' in request.GET:
-        query = request.GET.get('q')
-        if not query:
-            messages.error(request,("You didn't enter any search criteria!"))
-            return redirect(reverse('all_products'))
-        queries = Q(name__icontains=query) 
-        products = database.objects.filter(queries)
+    sort = None
+    direction = None
 
     
+    if request.GET:
+        if 'sort' in request.GET:
+            sortkey = request.GET['sort']
+            
+            if sortkey == 'name':
+                sortkey = 'database__name'
+            
+            if sortkey == 'category':
+                sortkey = 'database__category'
+            
+            if 'direction' in request.GET:
+                direction = request.GET['direction']
+                if direction == 'desc':
+                    sortkey = f'-{sortkey}'
+            products = database.objects.order_by('sortkey')      
+    
+        if 'brand' in request.GET:
+            brand = request.GET.get('brand')
+            products = database.objects.filter(brand=brand)
+        
+        if 'subcategory' in request.GET:
+            subcategory = request.GET.get('subcategory')
+            products = database.objects.filter(sub_categories=subcategory)
+        
+        if 'category' in request.GET:
+            category = request.GET.get('category')
+            products = database.objects.filter(category=category)
+
+
+        if 'q' in request.GET:
+            query = request.GET.get('q')
+            if not query:
+                messages.error(request,("You didn't enter any search criteria!"))
+                return redirect(reverse('all_products'))
+            queries = Q(name__icontains=query) 
+            products = database.objects.filter(queries)
+
+        
 
     context = {
         'products': products,
