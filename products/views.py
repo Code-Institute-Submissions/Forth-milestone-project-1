@@ -21,23 +21,38 @@ def all_products(request):
     if request.GET:
         if 'sort' in request.GET:
             sortkey = request.GET['sort']
-            
+            sort = sortkey
             if sortkey == 'name':
-                sortkey = 'database__name'
+                sortkey = 'name'
+                sort = sortkey
+                products = products.annotate(lower_name=Lower('name'))
+            
+            if sortkey == 'brand':
+                sortkey = 'brand'
+                sort = sortkey
             
             if sortkey == 'category':
-                sortkey = 'database__category'
+                sortkey = 'category'
+                sort = sortkey
+
+            if sortkey == 'sub':
+                sortkey = 'sub'+'_categories'
+                sort = sortkey
+                
+                  
             
             if 'direction' in request.GET:
                 direction = request.GET['direction']
                 if direction == 'desc':
                     sortkey = f'-{sortkey}'
-            products = database.objects.order_by('sortkey')      
+                sort = sortkey
+            products = database.objects.order_by(sort)
+           
     
         if 'brand' in request.GET:
             brand = request.GET.get('brand')
             products = database.objects.filter(brand=brand)
-        
+            
         if 'subcategory' in request.GET:
             subcategory = request.GET.get('subcategory')
             products = database.objects.filter(sub_categories=subcategory)
