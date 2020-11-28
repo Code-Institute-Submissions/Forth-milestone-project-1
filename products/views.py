@@ -77,11 +77,7 @@ def all_products(request):
         }
     return render(request, 'products/products2.html', context)
 
-from django.views.generic import ListView
 
-class blogposts(ListView):
-    model = database
-    paginate_by = 10
 
 def product_detail(request, product_id, sub_categories):
     
