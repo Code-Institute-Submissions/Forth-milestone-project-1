@@ -46,7 +46,7 @@ def all_products(request):
                 if direction == 'desc':
                     sortkey = f'-{sortkey}'
                 sort = sortkey
-            products = database.objects.order_by(sort)
+            products = database.objects.order_by(sortkey)
            
     
         if 'brand' in request.GET:
@@ -73,9 +73,7 @@ def all_products(request):
         
 
     context = {
-        'products': products,
-        'free_delivery_threshold': settings.FREE_DELIVERY_THRESHOLD
-        
+        'products': products
         }
     return render(request, 'products/products2.html', context)
 
@@ -92,8 +90,7 @@ def product_detail(request, product_id, sub_categories):
 
     context = {
         'product': product,
-        'products': products,
-        'free_delivery_threshold': settings.FREE_DELIVERY_THRESHOLD
+        'products': products
     }
 
     return render(request, 'products/product_detail.html', context)

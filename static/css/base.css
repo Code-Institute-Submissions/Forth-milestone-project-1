@@ -252,8 +252,33 @@ li.flyout-mega>a:hover +.flyout-mega-wrap{
 	right: 100%;
 }
  }
-@media (max-width:767px){
 
+
+#brandselector2 {
+        display: none;
+    }
+
+
+@media (max-width:767px){
+    
+    #sidebar h4 {
+        display: none;
+    }
+    #sidebar hr {
+        display: none;
+    }
+    #brandselector1 {
+        display: none;
+    }
+
+    #brandselector2 {
+        display: inline-block;
+    }
+    #sort-selector2 {
+        border:0px;
+        outline:0px;
+    }
+         
 	.exo-menu {
 		min-height: 58px;
 		background-color:#ceddc8;
@@ -362,6 +387,8 @@ li.flyout-mega>a:hover +.flyout-mega-wrap{
   .modalImage {
      width: 100%;
   }
+
+  
 }
 
 
@@ -444,8 +471,11 @@ li.flyout-mega>a:hover +.flyout-mega-wrap{
     color: rgb(190, 48, 190)
   }
 .fa-star {
-  color: rgb(119, 107, 107);
-  }
+    color: rgb(119, 107, 107);
+    
+}
+
+
 #resize:hover .fa-star {
   color:rgb(190, 48, 190);
   }
@@ -546,7 +576,19 @@ input {
 #titlefontsize {
   font-size: 20px;
 }
+
+@media only screen and (max-width: 574px) {
+    #resize2 p {
+        color:rgb(19, 18, 18);
+        font-size: 17px;
+        margin-right: 90px;
+    }
+    #reviewstar {
+        margin-right: 90px;
+    }
+}
 @media only screen and (max-width: 750px) {
+
 
 .offsetclass {
   margin-left: 50px;

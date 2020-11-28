@@ -7,7 +7,6 @@ def index(request):
     products = database.objects.all().order_by('?')[:12]
 
     context = {
-        'products': products,
-        'free_delivery_threshold': settings.FREE_DELIVERY_THRESHOLD,
+        'products': products
     }
     return render(request, 'home/index.html', context)

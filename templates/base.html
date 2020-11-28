@@ -78,7 +78,7 @@
                                     </div>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="">
+                                    <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="{% url 'view_bag' %}">
                                         <div class="text-center">
                                             <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                                             <p class="my-0">
@@ -323,31 +323,7 @@
     </script>
 
  
-    <script>
-        $(".select").click(function() {
-            var is_open = $(this).hasClass("open");
-            if (is_open) {
-                $(this).removeClass("open");
-            } else {
-                $(this).addClass("open");
-            }
-        });
-
-        $(".select li").click(function() {
-            var selected_value = $(this).html();
-            var first_li = $(".select li:first-child").html();
-            $(".select li:first-child").html(selected_value);
-            $(this).html(first_li);
-        });
-
-        $(document).mouseup(function(event) {
-            var target = event.target;
-            var select = $(".select");
-            if (!select.is(target) && select.has(target).length === 0) {
-                select.removeClass("open");
-            }
-        });
-    </script>
+ 
     <script type="text/javascript">
         $('#sort-selector').change(function() {
             var selector = $(this);
@@ -366,6 +342,22 @@
                 currentUrl.searchParams.delete("sort");
                 currentUrl.searchParams.delete("direction");
 
+                window.location.replace(currentUrl);
+            }
+        })
+    </script>
+    <script type="text/javascript">
+        $('#sort-selector2').change(function() {
+            var selector = $(this);
+            var currentUrl = new URL(window.location);
+
+            var selectedVal = selector.val();
+            if(selectedVal != "reset"){
+                var brand = selectedVal;
+                currentUrl.searchParams.set("brand", brand);
+                window.location.replace(currentUrl);
+            } else {
+                currentUrl.searchParams.delete("brand");
                 window.location.replace(currentUrl);
             }
         })
