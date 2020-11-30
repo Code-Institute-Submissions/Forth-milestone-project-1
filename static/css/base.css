@@ -20,7 +20,9 @@
   color:rgb(116, 108, 108);
 }
 
-
+.container:hover a {
+    text-decoration: none;
+}
 
  .leftmenumargin ul li {
   margin-left:20px;
@@ -487,7 +489,7 @@ li.flyout-mega>a:hover +.flyout-mega-wrap{
     height: 40px;
     top: 60%;
     left: 50%;
-    margin-left: -60px;
+    margin-left: -50px;
     color: white;
     background-color: black;
     border-radius: 6px;
