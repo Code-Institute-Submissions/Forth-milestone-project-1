@@ -7,7 +7,7 @@
 {% endblock %}
 
 {% block content %}
-    <section style="overflow-x: hidden; width: 100%;height: 100%;">
+    <section style="overflow-x: hidden; width: 100%;height: 100%;style="z-index: 9999;"">
         <div class="mt-4" style="height: 600px; overflow: hidden;background-size: cover;background-position: right; background-image: url('https://cdn.shopify.com/s/files/1/0018/4224/9785/files/SS-petals-light_1800x.jpg?v=1534452657'); background-size: cover;">
             <div class="" style="margin-top: 200px;margin-left:100px;">
                 <h4 class="text-black" style="font-size: 50px;">A Rose is a Rose</h4>
@@ -77,10 +77,10 @@
 
         <div class="row">
             {% for product in products %}
-            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+            <div class="col-lg-3 col-md-4 col-12">
                 <div id="resize">
                     <div>
-                        <img  id="myimage" src="{{ product.url1 }}"/>
+                        <img style="margin:auto;display:block;" id="myimage" src="{{ product.url1 }}"/>
                     </div>
                     <p class="text-center mt-2" style="font-size: 15px;">{{ product.name}}</p>
                     <div id="changeicon" class="text-center">
@@ -92,86 +92,86 @@
                         <span class="heading">review 1</span>
                     </div>
                     <p class="text-center abc" style="font-size: 15px;">${{ product.price }}</p>
-                </div>      
+                </div> 
+             
 
-                <button class="text-center myBtn2"  data-target="#my-modal{{ forloop.counter }}" data-toggle="modal" id="myBtn{{ forloop.counter }}">Quick Shop</button>
-
-                
-                <!-- The Modal -->         
-                <div id="my-modal{{ forloop.counter }}" class="modal2">
-                <!-- Modal content -->
+                <button class="text-center myBtn2"  onclick="document.getElementById('my-modal{{ forloop.counter }}').style.display='block'"  >Quick Shop</button>
+                       
+                <div id="my-modal{{ forloop.counter }}" class="modal2" style="z-index: 1041;">
                     <div class="modal-content2">
-                        <span id="close2{{ forloop.counter }}" >&times;</span>
+                        <span id="close2" onclick="document.getElementById('my-modal{{ forloop.counter }}').style.display='none'" >&times;</span>
                         <div class="row pt-2">
                             <div class="col-6">
-                                        <img class="" style="width: 400px; height: 400px;" src="{{ product.url1 }}"/>
-                                    </div>
-                                    <div class="col-6">
-                                        <p style="font-size: 20px;">{{ product.name }}</p>
-                                        <hr>
-                                        <div class="mb-3">
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star checked"></span>
-                                            <span class="fa fa-star"></span>
-                                            <span class="fa fa-star"></span>
-                                            <span class="heading">review 1</span>
-                                        </div>
-                                        <p>${{ product.price }}</p>
-                                        <p style="line-height: 1.5;" >{{ product.description|truncatechars:300 }}</p>
-                                        <hr>
-                                        <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
-                                        {% csrf_token %}
-                                            <div class="form-row">
-                                                <div class="col-12">
-                                                    <p class="mt-3"><strong>Quantity:</strong></p>
-                                                    <div class="form-group w-50">
-                                                        <div class="input-group">
-                                                            <div class="input-group-prepend">
-                                                                <button class="decrement-qty btn btn-black rounded-0" data-item_id="{{ product.id }}" id="decrement-qty_{{ product.id }}">
-                                                                <span class="icon"><i class="fas fa-minus"></i></span>
-                                                                </button>
-                                                            </div>
-                                                            <input class="form-control qty_input" type="number" name="quantity" value="1" min="1" max="99" data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}">
-                                                            <div class="input-group-append">
-                                                                <button class="increment-qty btn btn-black rounded-0" data-item_id="{{ product.id }}" id="increment-qty_{{ product.id }}">
-                                                                <span class="icon"><i class="fas fa-plus"></i></span>
-                                                                </button>
-                                                            </div>
-                                                        </div>
+                                <img class="" style="width: 400px; height: 400px;" src="{{ product.url1 }}"/>
+                            </div>
+                            <div class="col-6">
+                                <p style="font-size: 20px;">{{ product.name }}</p>
+                                <hr>
+                                <div class="mb-3">
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="heading">review 1</span>
+                                </div>
+                                <p>${{ product.price }}</p>
+                                <p style="line-height: 1.5;" >{{ product.description|truncatechars:300 }}</p>
+                                <hr>
+                                <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
+                                    {% csrf_token %}
+                                    <div class="form-row">
+                                        <div class="col-12">
+                                            <p class="mt-3"><strong>Quantity:</strong></p>
+                                            <div class="form-group w-50">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <button class="decrement-qty btn btn-black rounded-0" data-item_id="{{ product.id }}" id="decrement-qty_{{ product.id }}">
+                                                        <span class="icon"><i class="fas fa-minus"></i></span>
+                                                        </button>
+                                                    </div>
+                                                    <input class="form-control qty_input" type="number" name="quantity" value="1" min="1" max="99" data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}">
+                                                    <div class="input-group-append">
+                                                        <button class="increment-qty btn btn-black rounded-0" data-item_id="{{ product.id }}" id="increment-qty_{{ product.id }}">
+                                                        <span class="icon"><i class="fas fa-plus"></i></span>
+                                                        </button>
                                                     </div>
                                                 </div>
-
-                                                <div class="">
-                                                    <a href="{% url 'all_products' %}" class="btn btn-outline-black rounded-0 mt-5">
-                                                    <span class="icon"><i class="fas fa-chevron-left"></i></span>
-                                                    <span class="text-uppercase">Keep Shopping</span>
-                                                    </a>
-                                                    <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add to Bag">
-                                                </div>
-                                                <input type="hidden" name="redirect_url" value="{{ request.path }}">
                                             </div>
-                                        </form>
+                                        </div>
+
+                                        <div class="">
+                                            <a href="{% url 'all_products' %}" class="btn btn-outline-black rounded-0 mt-5">
+                                                <span class="icon"><i class="fas fa-chevron-left"></i></span>
+                                                <span class="text-uppercase">Keep Shopping</span>
+                                            </a>
+                                            <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add to Bag">
+                                        </div>
+                                        <input type="hidden" name="redirect_url" value="{{ request.path }}">
                                     </div>
-                                </div>
+                                </form>
                             </div>
-                        </div>  
-                    </div> 
+                        </div>
+                    </div>
+                 
+                    <script>
+                        // Get the modal
+                        var modal = document.getElementById('#my-modal{{ forloop.counter }}');
+
+                        // When the user clicks anywhere outside of the modal, close it
+                        window.onclick = function(event) {
+                            if (event.target == modal) {
+                            modal.style.display = "none";
+                        }}
+                    </script> 
                 </div> 
-                <script>
-                    // Get the <span> element that closes the modal
-                    var span2 = document.getElementsById("close2{{ forloop.counter }}");
-                    var modal2 = document.getElementsById("my-modal{{ forloop.counter }}");
-                    // When the user clicks on <span> (x), close the modal
-                    span2.onclick = function() {
-                        modal2.style.display = "none";
-                    }
+            </div>      
+            {% endfor %}     
+        </div> 
+                
 
-                </script>
-            </div> 
-            {% endfor %}
-        </div>
 
+               
 
         <div class="col-12 py-3 mb-4">
             <div style="height: 500px;  background-image: url('https://mega.onemega.com/wp-content/uploads/2020/03/Homemade-Skincare.jpg'); background-size: cover;">
@@ -217,8 +217,6 @@
                     <p>Before I discovered this shop, I was always disappointed with drugstore makeup + skincare. I am so glad I now have a go-to spot for organic, natural cosmetics that are also against animal testing..</p>
                     <p class="py-3" style="color: rgb(94, 84, 84);font-weight: 350;"><strong>— Jessica B.</strong></p>
                 </div>
-
-            
             </div>
         </div>
 

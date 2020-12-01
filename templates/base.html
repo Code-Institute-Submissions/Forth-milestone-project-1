@@ -406,7 +406,14 @@
        var itemId = $(this).data('item_id');
        handleEnableDisable(itemId);
     });
-</script>
+
+    $('.modal2').on('show.bs.modal', function (e) {
+        if ($(window).height() < 750) {
+            e.preventDefault();
+            $(this).modal('hide');
+        }
+    });
+    </script>
     {% endblock %}   
   </body>
 </html>

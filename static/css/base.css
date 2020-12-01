@@ -453,8 +453,6 @@ li.flyout-mega>a:hover +.flyout-mega-wrap{
 #myimage {
   width:300px;
   height:300px;
-  
-  margin-left:20px;
 }
 
 #resize {
@@ -580,6 +578,8 @@ input {
 }
 
 @media only screen and (max-width: 574px) {
+
+    
     #resize2 p {
         color:rgb(19, 18, 18);
         font-size: 17px;
