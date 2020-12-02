@@ -70,9 +70,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </form>
-                                    
-                                    
+                                    </form> 
                                 </td>
                                 <td class="py-3">
                                     <div>
@@ -124,26 +122,17 @@
 {% endblock %}
 {% block postloadjs %}
 {{ block.super }}
-<script type="text/javascript">
-    $('.btt-link').click(function(e) {
-        window.scrollTo(0,0)
-    })
-</script>
+
 
 
 <script type="text/javascript">
     // Update quantity on click
     $(function () {
         $(".update-link").on("click", function () {
-            var form = $(this).prev('.update-form');
-            form.submit();
+            $(".update-form").trigger('submit');
         });
     });
-    var form = $(this).prev('.update-form');
-        form.submit();
-    
-    
-    // Remove item and reload on click
+
     $('.remove-item').click(function(e) {
         var csrfToken = "{{ csrf_token }}";
         var itemId = $(this).attr('id').split('remove_')[1];
