@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+{% load bag_tools %}
 
 
 {% block page_header %}
@@ -18,7 +19,7 @@
         <div class="row">
             <div class="col">
                 {% if bag_items %}
-                    <div class="table-responsive rounded d-none d-md-block">
+                    <div class="table-responsive rounded  d-md-block">
                         <table class="table table-sm table-borderless">
                             <thead class="text-black">
                                 <tr>
@@ -29,11 +30,11 @@
                                     <th scope="col">Subtotal</th>
                                 </tr>
                                 <tr>
-                                    <td><hr margin-left:0;width="70%; border: solid 2ppx black" /></td>
-                                    <td><hr width="70%" /></td>
-                                    <td><hr width="70%" /></td>
-                                    <td><hr width="70%" /></td>
-                                    <td><hr width="70%" /></td>
+                                    <td><hr style=""></td>
+                                    <td><hr style="width:70%;"></td>
+                                    <td><hr atyle=""></td>
+                                    <td><hr style="width:70%;margin-left:0px;"></td>
+                                    <td><hr ></td>
                                 </tr>
                                 
                             </thead>
@@ -50,19 +51,19 @@
                                 <td class="py-3">
                                     <p class="my-0">${{ item.product.price }}</p>
                                 </td>
-                                <td class="py-3 w-25">
-                                    <form class="form update-form" method="POST" action="">
+                                <td class="py-3" style="width: 160px;overflow: hidden;">
+                                    <form class="form update-form" method="POST" action="{% url 'adjust_bag' item.item_id %}">
                                         {% csrf_token %}
                                         <div class="form-group">
                                             <div class="input-group">
                                                 <div class="input-group-prepend">
-                                                    <button class="decrement-qty btn btn-sm     btn-black rounded-0" data-item_id="{{   item.item_id }}" id="decrement-qty_{{   item.item_id }}">
+                                                    <button class="update-link decrement-qty decrement-qty-bag btn btn-sm rounded-0" data-item_id="{{ item.quantity }}" id="decrement-qty_{{ item.quantity }}">
                                                     <span><i class="fas fa-minus fa-sm"></i></span>
                                                     </button>
                                                 </div>
-                                                <input class="form-control form-control-sm qty_input" type="number" name="quantity" value="{{ item.quantity }}" min="1" max="99"  data-item_id="{{ item.item_id }}" id="id_qty_{{ item.item_id }}">
+                                                <input class="form-control form-control-sm qty_input" type="number" name="quantity" value="{{ item.quantity }}" min="1" max="99"  data-item_id="{{ item.quantity }}" id="id_qty_{{ item.quantity }}">
                                                 <div class="input-group-append">
-                                                    <button class="increment-qty btn btn-sm btn-black rounded-0" data-item_id="{{ item.item_id }}" id="increment-qty_{{ item.item_id }}">
+                                                    <button class="update-link increment-qty increment-qty-bag btn btn-sm rounded-0" data-item_id="{{ item.quantity }}" id="increment-qty_{{ item.quantity }}">
                                                     <span><i class="fas fa-plus fa-sm"></i>
                                                     </span>
                                                     </button>
@@ -70,11 +71,14 @@
                                             </div>
                                         </div>
                                     </form>
-                                    <a class="update-link text-info"><small>Update</small></a>
-                                    <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}" data-product_size="{{ item.size }}"><small>Remove</small></a>
+                                    
+                                    
                                 </td>
                                 <td class="py-3">
-                                    <p class="my-0">${{ item.product.price }}</p>
+                                    <div>
+                                        <span><strong>Subtotal: </strong>${{ item.product.price | calc_subtotal:item.quantity }}</span>
+                                        <span><a href="{% url 'remove_from_bag' item_id=item.product.pk %}" class="remove-item float-right" id="remove_{{ item.product.pk }}" data-product_size="{{ item.size }}" style="margin-right:0px;font-size:30px;">&times;</a></span>
+                                    </div> 
                                 </td>
                             </tr>
                             {% endfor %}
@@ -129,11 +133,16 @@
 
 <script type="text/javascript">
     // Update quantity on click
-    $('.update-link').click(function(e) {
-        var form = $(this).prev('.update-form');
+    $(function () {
+        $(".update-link").on("click", function () {
+            var form = $(this).prev('.update-form');
+            form.submit();
+        });
+    });
+    var form = $(this).prev('.update-form');
         form.submit();
-    })
-
+    
+    
     // Remove item and reload on click
     $('.remove-item').click(function(e) {
         var csrfToken = "{{ csrf_token }}";
@@ -147,6 +156,7 @@
              location.reload();
          });
     })
+    
 </script>
 {% endblock %}
 

@@ -38,9 +38,9 @@
   </head>
   <body>
     <header>
-        <nav class="">
+        <nav class="" style="clear: left;">
             <div class="container-fluid w-100 my-auto" >
-                <div class="row bg-white">
+                <div class="row">
                         <div class="col-12 col-lg-4 col-md-4 col-sm-10 col-xs-10 ml-5 my-auto py-1 py-lg-0">
                             <form method="GET" action="{% url 'all_products' %}">
                                 <div class="input-group border border-black rounded-0">
@@ -413,6 +413,19 @@
             $(this).modal('hide');
         }
     });
+    </script>
+    <script>
+        var modalEle = document.querySelector(".modal");
+        var modalImage = document.querySelector(".modalImage");
+        Array.from(document.querySelectorAll(".ImgThumbnail")).forEach(item => {
+            item.addEventListener("click", event => {
+            modalEle.style.display = "block";
+            modalImage.src = event.target.src;
+            });
+        });
+        document.querySelector(".close").addEventListener("click", () => {
+        modalEle.style.display = "none";
+        });
     </script>
     {% endblock %}   
   </body>
