@@ -33,7 +33,7 @@
             <p style="font-size: 23px;">${{ product.price}}</p>
             <p style="line-height: 2;font-size: 16px;">{{ product.description }}</p>
             <hr>
-            <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
+            <form class="form" action="{% url 'add_to_bag' item_id=product.id %}" method="POST">
             {% csrf_token %}
                 <div class="form-row">
                     <div class="col-12">
