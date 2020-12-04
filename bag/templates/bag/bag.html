@@ -78,14 +78,6 @@
                                         <span><a href="{% url 'remove_from_bag' item_id=item.product.pk %}" class="remove-item float-right" id="remove_{{ item.product.pk }}" data-product_size="{{ item.size }}" style="margin-right:0px;font-size:30px;">&times;</a></span>
                                     </div> 
                                 </td>
-                                <script>
-                                    // Update quantity on click
-                                    $(function () {
-                                        $(".update-form").on("click", function () {
-                                            $(".update-link").trigger('submit');
-                                        });
-                                    });
-                                </script>
                             {% endfor %}
                             </tr>
 
