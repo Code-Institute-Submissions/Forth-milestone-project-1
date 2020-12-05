@@ -36,6 +36,7 @@
 
     <title>SAN FRANCISCO{% block extra_title %}{% endblock %}</title>
   </head>
+{% block page_header %} 
   <body>
     <header>
         <nav class="" style="clear: left;">
@@ -220,9 +221,7 @@
             {% endfor %}
         </div>
     {% endif %}  
-
-    {% block page_header %} 
-    {% endblock %}
+{% endblock %}
 
     {% block content %}
     {% endblock %}
