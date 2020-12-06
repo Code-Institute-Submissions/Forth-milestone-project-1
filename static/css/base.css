@@ -1148,6 +1148,10 @@ fieldset[disabled] a.btn {
     border: 1px solid #000;
 }
 
+#card-element {
+    height: 35px;
+    border-radius:5px;
+}
 select,
 select option {
     color: #000000;
