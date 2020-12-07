@@ -107,8 +107,8 @@
                             </div>
                         </div>
                     </fieldset>
-                    <fieldset class="px-3 py-3">
-                        <legend class="fieldset-label text-black px-2 w-auto">Payment</legend>
+                    <fieldset class="px-3">
+                        <legend class="fieldset-label text-black mb-3 px-2 w-auto">Payment</legend>
                         <!-- A Stripe card element will go here -->
                         <div class="mb-3" id="card-element"></div>
                         <!-- Used to display form errors -->
@@ -142,7 +142,7 @@
 
 {% endblock %} 
 {% block postloadjs %}
-{{ block.super }}
+    {{ block.super }}
     {{ stripe_public_key|json_script:"id_stripe_public_key" }}
     {{ client_secret|json_script:"id_client_secret" }}
     <script src="{% static 'checkout/js/stripe_elements.js' %}"></script>
