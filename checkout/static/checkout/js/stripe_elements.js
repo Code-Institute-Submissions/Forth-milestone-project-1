@@ -50,10 +50,42 @@ form.addEventListener('submit', function(ev) {
     ev.preventDefault();
     card.update({ 'disabled': true});
     $('#submit-button').attr('disabled', true);
-    stripe.confirmCardPayment(clientSecret, {
+    var saveInfo = Boolean($('#id-save-info').attr('checked'));
+    var csrfToken = $('input[name="csrfmiddlewaretoken"]').val();
+    var postData = {
+        'csrfmiddlewaretoken': csrfToken,
+        'client_secret': clientSecret,
+        'save_info': saveInfo,
+    };
+    var url = '/checkout/cache_checkout_data/';
+
+    $.post(url, postData).done(function () {
+        stripe.confirmCardPayment(clientSecret, {
             payment_method: {
                 card: card,
-            }
+                billing_details: {
+                    first_name: $.trim(form.first_name.value),
+                    second_name: $.trim(form.second_name.value),
+                    phone: $.trim(form.phone_number.value),
+                    email: $.trim(form.email.value),
+                    address:{
+                        line: $.trim(form.street_address.value),
+                        city: $.trim(form.town_or_city.value),
+                        country: $.trim(form.country.value),
+                    }
+                }
+            },
+            shipping: {
+                first_name: $.trim(form.first_name.value),
+                second_name: $.trim(form.second_name.value),
+                phone: $.trim(form.phone_number.value),
+                address: {
+                    line: $.trim(form.street_address.value),
+                    city: $.trim(form.town_or_city.value),
+                    country: $.trim(form.country.value),
+                    postal_code: $.trim(form.postcode.value),
+                }
+            },
     }).then(function(result) {
         if (result.error) {
             var errorDiv = document.getElementById('card-errors');
@@ -71,4 +103,8 @@ form.addEventListener('submit', function(ev) {
             }
         }
     });
+    }).fail(function () {
+        // just reload the page, the error will be in django messages
+        location.reload();
+    })
 });

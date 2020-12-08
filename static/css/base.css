@@ -588,8 +588,24 @@ input {
         margin-right: 90px;
     }
 }
+
+.textright {
+    text-align: right;
+}
+
+.textleft {
+    text-align: left;
+}
+
 @media only screen and (max-width: 750px) {
 
+.textright {
+    text-align: center;
+}
+
+.textleft {
+    text-align: center;
+}
 .myBtn2 {
     display: none !important;
 }
@@ -1180,3 +1196,4 @@ select option[value=""] {
     margin: 0;
     height: 100%;
 }
+
