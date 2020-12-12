@@ -62,7 +62,7 @@ class StripeWH_Handler:
             if value == "":
                 shipping_details.address[field] = None
         
-                # Update profile information if save_info was checked
+        # Update profile information if save_info was checked
         profile = None
         username = intent.metadata.username
         if username != 'AnonymousUser':
@@ -134,7 +134,7 @@ class StripeWH_Handler:
                 return HttpResponse(
                     content=f'Webhook received: {event["type"]} | ERROR: {e}',
                     status=500)
-            self._send_confirmation_email(order)
+        self._send_confirmation_email(order)
         return HttpResponse(
             content=(f'Webhook received: {event["type"]} | SUCCESS: '
                      'Created order in webhook'),
