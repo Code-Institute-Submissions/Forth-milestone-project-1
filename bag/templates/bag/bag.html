@@ -125,9 +125,10 @@
 
 <script type="text/javascript">
     // Update quantity on click
+
     $(function () {
         $(".update-link").on("click", function () {
-            $(".update-form").trigger('submit');
+            $(".update-form{{item.item.id}}").trigger('submit');
         });
     });
 

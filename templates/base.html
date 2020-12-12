@@ -42,7 +42,7 @@
   <body>
     <header>
         <nav class="" style="clear: left;">
-            <div class="container-fluid w-100 my-auto" >
+            <div class="container-fluid w-100 my-auto">
                 <div class="row">
                         <div class="col-12 col-lg-4 col-md-4 col-sm-10 col-xs-10 ml-5 my-auto py-1 py-lg-0">
                             <form method="GET" action="{% url 'all_products' %}">
@@ -58,7 +58,7 @@
                                 </div>
                             </form>
                         </div>
-                        <div class="leftmenumargin col-12 col-lg-7 my-auto py-1 py-lg-1">
+                        <div class="leftmenumargin col-12 col-lg-7 my-auto py-1 py-lg-1" style="position: relative; z-index: 999">
                             <ul class="list-inline list-unstyled text-center text-lg-right my-0" >
                                 <li class="list-inline-item dropdown">
                                     <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -72,7 +72,7 @@
                                             {% if request.user.is_superuser %}
                                                 <a href="" class="dropdown-item">Product Management</a>
                                             {% endif %}
-                                            <a href="" class="dropdown-item">My Profile</a>
+                                            <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
                                             <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
                                         {% else %}          
                                             <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
