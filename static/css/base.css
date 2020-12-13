@@ -1115,6 +1115,10 @@ fieldset[disabled] a.btn {
     height: 34px;
 }
 
+.img-fluid {
+    width:  150px;
+    height: 150px;
+}
 .qty_input {
     color:black;
     background-color: white;
