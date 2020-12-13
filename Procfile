@@ -1,1 +1,1 @@
-web: gunicorn boutique_ado.wsgi:application
+web: gunicorn cosmatic_add.wsgi:application
