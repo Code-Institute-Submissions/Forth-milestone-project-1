@@ -7,7 +7,7 @@
 {% block content %}
     {% for product in products.all|slice:"1" %}
     <div class="my-3">
-        <h4 class="text-center" style="font-size: 30px; color:rgb(99, 84, 84);">{{ product.category}}/{{ product.sub_categories}}</h4>
+        <h4 class="text-center" style="font-size: 30px; color:rgb(99, 84, 84);">Products Collection</h4>
         <hr class="w-85 mx-5" style="height: 20px; color:rgb(105, 97, 97);">
         <a class="text-left pl-5 pr-1 font-italic" id="homelink" href="{% url 'home' %}">Home</a>
         <span class=""><i class="fas fa-chevron-right"></i></span>
@@ -26,7 +26,6 @@
                 <option value="name_desc"><a href="{% url 'all_products' %}?sort=name&direction=desc" class="dropdown-item">Name (Z-A)</a></option>
                 <option value="brand_asc"><a href="{% url 'all_products' %}?sort=brand&direction=asc" class="dropdown-item">Brand (A-Z)</a></option>
                 <option value="brand_desc"><a href="{% url 'all_products' %}?sort=brand&direction=desc" class="dropdown-item">Brand (Z-A)</a></option>
-                <a href="{% url 'all_products' %}?brand=Nu Evolution"><li>Nu Evolution</li></a>
                 <option value="category_asc"><a href="{% url 'all_products' %}?sort=category&direction=asc" class="dropdown-item">Category (A-Z)</a></option>
                 <option value="category_desc"><a href="{% url 'all_products' %}?sort=category&direction=desc" class="dropdown-item">Category (Z-A)</a></option>
                 <option value="sub_Category_asc"><a href="{% url 'all_products' %}?sort=sub&direction=asc" class="dropdown-item">Sub_Category (A-Z)</a></option>

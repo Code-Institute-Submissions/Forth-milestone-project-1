@@ -48,7 +48,7 @@
                                     <p class="my-0">${{ item.product.price }}</p>
                                 </td>
                                 <td class="py-3" style="width: 160px;overflow: hidden;">
-                                    <form class="form update-form" id="update-form{{ forloop.counter }}" method="POST" action="{% url 'adjust_bag' item_id=item.item_id %}">
+                                    <form class="form update-form" id="update-form" method="POST" action="{% url 'adjust_bag' item_id=item.item_id %}">
                                         {% csrf_token %}
                                         <div class="form-group">
                                             <div class="input-group">
@@ -119,12 +119,13 @@
 
 <script type="text/javascript">
     // Update quantity on click
-
-    $(function () {
+     $(function () {
         $(".update-link").on("click", function () {
-            $(".update-form{{item.item.id}}").trigger('submit');
+            $(".update-form").trigger('submit');
         });
     });
+
+    
 
     $('.remove-item').click(function(e) {
         var csrfToken = "{{ csrf_token }}";
