@@ -12,7 +12,6 @@ This is an Ecommerce shopping store designed for women who are more interested i
 8.	Site owner will have an access to product management page where new product could be added to the list.
 9.	Site owner can also edit or update product informaiton related to the product price, its description, image and rating.
 10.	As well as adding and editing, the site owner can remove any products that are no longer avaible for buy. 
-11.	
 
 ### User goals
 Number of features have been implemented throughtout the sites so the user will be able to achieve the following goals:
@@ -153,12 +152,12 @@ To deploy this Ecommerce site to Heroku, follow the below steps:
 * W3C CSS validation
 * W3C Markup Validation
 * The developer used W3C CSS Validation Service and W3C Markup Validation Service to check the validity of the website code. 
-Client stories testing:
-Most common path through the website:
+## Client stories testing:
+### Most common path through the website:
 * Home > product list > product detail > shopping bag > checkout > checkout success > profile
 * Each of these pages points users clearly to the next one with a call to action button. A second call to an action button is added in some places so the customers can return back to the previous page and make any intended amendements. 
 * Customers can at any point log in into their account or register for a new one. 
-Testing client stories from UX section of README.md
+### Testing client stories from UX section of README.md
 1.	As a site user I want to be able to view products list navagite to the desired product collection:
 * The view collection button on the home page had been tested and fully functional and points the user to the full products list.
 * The image card features on the home page is also working and direct users to a specific category of the products. The database contains two main categories, makeup and hair collections. 
@@ -193,27 +192,8 @@ This is Lighthouse performance test:
 
 # Credits 
 ## Database
-[The raw database used in this site have been taken from](myshopify.com) BUT I have significantly changed and re-arranged it to fit my need. So the database in csvjson2.json file has been created to contain the following fields:
-{
-        "pk": 1, 
-        "model": "products.database", 
-        "fields": {
-            "category": "Skincare",  
-            "description": "Crushed, organic acai berries deeply nourish skin by replacing lost moisture and feeding your skin essential vitamins, minerals, antioxidants, and fatty acids. Smoothes away bumps, flakes, and dead skin cells for a super soft, glowing complexion. Naturally high in vitamins A and C, acai berries can brighten and balance skin's appearance.", 
-            "brand": "100% Pure", 
-            "url2": "", 
-            "color1": "", 
-            "url4": "", 
-            "color3": "", 
-            "color2": "", 
-            "url1": "https://cdn.shopify.com/s/files/1/0018/4224/9785/products/YFcch0FhSIqb4dy8UImZ_800x_1024x1024_b8f99b38-4fcc-43b8-9cfc-fd3917de9682_1200x.png?v=1569371462", 
-            "color4": "", 
-            "url3": "", 
-            "sub_categories": "Masks Exfoliants", 
-            "price": "35", 
-            "name": "100% Pure Acai Pulp Facial Scrub"
-        }
-}
+[The raw database used in this site have been taken fromBUT I have significantly changed and re-arranged it to fit my need (myshopify.com). 
+
 ## Media
 ### Images
 The images that have been used in the Home page have been taken from Google.com
