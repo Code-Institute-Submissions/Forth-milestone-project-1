@@ -58,35 +58,35 @@ Number of features have been implemented throughtout the sites so the user will 
 7.	User can go back then to their profile to see the order that has been just placed. 
 ## Design stories
 Background
-•	The site’s different pages have white background color.
-•	Some div element were given image as background to make the website rich and appealing.
-•	The background color of the nav bar and footer were picked to go with body background. 
+* The site’s different pages have white background color.
+* Some div element were given image as background to make the website rich and appealing.
+* The background color of the nav bar and footer were picked to go with body background. 
 Styling
-•	All input element in the home, products, product detail and bag pages were style with no rounded edges. 
-•	However, the input element in the crispy form have been styled to have round edges, however.
-•	Add to bag, secue checkout and complete order buttons were given rounded edges and same background color.
-•	The header and footer elements are repeated in every single page except for checkout page where the header is replace with div that has background image that have been used in the home page.
+* All input element in the home, products, product detail and bag pages were style with no rounded edges. 
+* However, the input element in the crispy form have been styled to have round edges, however.
+* Add to bag, secue checkout and complete order buttons were given rounded edges and same background color.
+* The header and footer elements are repeated in every single page except for checkout page where the header is replace with div that has background image that have been used in the home page.
 Card images
-•	I have made a use of card image in the home page to promote specific category or subcategory products, for example the eco-friendly brands, makeup collections and hair products page. Once the user clicks on any of there card image, he/she will be directed to what the title on these card say.
-•	Since this site is selling beauty product, adding these card images was a nice feature to have to attract certain type of users. 
-•	They are also aimed to advertise some beauty products collections.
+* I have made a use of card image in the home page to promote specific category or subcategory products, for example the eco-friendly brands, makeup collections and hair products page. Once the user clicks on any of there card image, he/she will be directed to what the title on these card say.
+* Since this site is selling beauty product, adding these card images was a nice feature to have to attract certain type of users. 
+* They are also aimed to advertise some beauty products collections.
 Tables
-•	Tables are used in both bag and profile pages.
-•	Tables are more suited when displaying multiple item with identical number of fields like the items in the shopping bag or in the order history.
-•	I have styled them to alternate in background color using bootstrap class.
+* Tables are used in both bag and profile pages.
+* Tables are more suited when displaying multiple item with identical number of fields like the items in the shopping bag or in the order history.
+* I have styled them to alternate in background color using bootstrap class.
 Box modal
-•	Some products that are currently under offer or a new arrival were dispalyed on the home page to make a highlight of them. 
-•	Quick shop button will be displayed when hovering over the product that will trigger opening Box modal so the user can add the item to the shopping bag without browsing the full product list. 
-•	On the new pop up window there will be quantity input button and add to bag button.
-•	The product description in the pop up window has been truncated so all required information could fit the view dimension. Obviously, if users want to find more about that product, they can still click on the item to be directed to the product detail page. 
+* Some products that are currently under offer or a new arrival were dispalyed on the home page to make a highlight of them. 
+* Quick shop button will be displayed when hovering over the product that will trigger opening Box modal so the user can add the item to the shopping bag without browsing the full product list. 
+* On the new pop up window there will be quantity input button and add to bag button.
+* The product description in the pop up window has been truncated so all required information could fit the view dimension. Obviously, if users want to find more about that product, they can still click on the item to be directed to the product detail page. 
 
 ## Wireframes
 These wireframes were created using Balsamiq during the Scope Plane part of the design and process of the project.
-•	[Home page]( https://preview.uxpin.com/622a6fd6f30d1e60a7faa72d11a55a8bd76485ce#/pages/134909974)
-•	[Product page]( https://preview.uxpin.com/622a6fd6f30d1e60a7faa72d11a55a8bd76485ce#/pages/134910196)
-•	[Product detail page]( https://preview.uxpin.com/622a6fd6f30d1e60a7faa72d11a55a8bd76485ce#/pages/134910287)
-•	[Bag page]( https://preview.uxpin.com/622a6fd6f30d1e60a7faa72d11a55a8bd76485ce#/pages/134910404)
-•	[Checkout page]( https://preview.uxpin.com/622a6fd6f30d1e60a7faa72d11a55a8bd76485ce#/pages/134910490)
+* [Home page]( https://preview.uxpin.com/622a6fd6f30d1e60a7faa72d11a55a8bd76485ce#/pages/134909974)
+* [Product page]( https://preview.uxpin.com/622a6fd6f30d1e60a7faa72d11a55a8bd76485ce#/pages/134910196)
+* [Product detail page]( https://preview.uxpin.com/622a6fd6f30d1e60a7faa72d11a55a8bd76485ce#/pages/134910287)
+* [Bag page]( https://preview.uxpin.com/622a6fd6f30d1e60a7faa72d11a55a8bd76485ce#/pages/134910404)
+* [Checkout page]( https://preview.uxpin.com/622a6fd6f30d1e60a7faa72d11a55a8bd76485ce#/pages/134910490)
 
 ## Features
 ### Existing features
@@ -150,44 +150,44 @@ To deploy this Ecommerce site to Heroku, follow the below steps:
  
 
 # Testing
-•	W3C CSS validation
-•	W3C Markup Validation
-	The developer used W3C CSS Validation Service and W3C Markup Validation Service to check the validity of the website code. 
+* W3C CSS validation
+* W3C Markup Validation
+* The developer used W3C CSS Validation Service and W3C Markup Validation Service to check the validity of the website code. 
 Client stories testing:
 Most common path through the website:
-•	Home > product list > product detail > shopping bag > checkout > checkout success > profile
-•	Each of these pages points users clearly to the next one with a call to action button. A second call to an action button is added in some places so the customers can return back to the previous page and make any intended amendements. 
-•	Customers can at any point log in into their account or register for a new one. 
+* Home > product list > product detail > shopping bag > checkout > checkout success > profile
+* Each of these pages points users clearly to the next one with a call to action button. A second call to an action button is added in some places so the customers can return back to the previous page and make any intended amendements. 
+* Customers can at any point log in into their account or register for a new one. 
 Testing client stories from UX section of README.md
 1.	As a site user I want to be able to view products list navagite to the desired product collection:
-1.1.1.	 The view collection button on the home page had been tested and fully functional and points the user to the full products list.
-1.1.2.	 The image card features on the home page is also working and direct users to a specific category of the products. The database contains two main categories, makeup and hair collections. 
-1.1.3.	 The shop tab on the nav bar is tested and when hovering over it, product categories and subcategories are displayed and are clickable. 
-1.1.4.	 All proceeding pages to the Home page, will have go back navigation link that I user can click if they need to. These links are tested and working. 
-1.1.5.	 The users have also been given the choice of keep shopping after adding some items to their shopping bag in order for them to buy more. 
-1.1.6.	 There is also return to bag button on the checkout page so the user can make a final adjustment before completing the order and submitting payment form to the Stripe. 
+* The view collection button on the home page had been tested and fully functional and points the user to the full products list.
+* The image card features on the home page is also working and direct users to a specific category of the products. The database contains two main categories, makeup and hair collections. 
+* The shop tab on the nav bar is tested and when hovering over it, product categories and subcategories are displayed and are clickable. 
+* All proceeding pages to the Home page, will have go back navigation link that I user can click if they need to. These links are tested and working. 
+* The users have also been given the choice of keep shopping after adding some items to their shopping bag in order for them to buy more. 
+* There is also return to bag button on the checkout page so the user can make a final adjustment before completing the order and submitting payment form to the Stripe. 
 
 2.	As a site user I want to be able to sort product list and search for any specific items.
-2.1.	The searching for any specific has been implemented and tested by typing any keyword in the search box in the navbar and the database will be searched for that particular keyword in the item name or description. The results will be rendering in the product list page. 
-2.2.	The sorting features was incorporated in the sidebar list where the user can click on any brand they would like to buy from and the correspoding resutls will be shown.
-2.3.	The developer has also made use of a second sort element on the top right hand corner of the product page where a selection options will be displyed to order items either based on the name, prices, brand, category and subcategories. 
+* The searching for any specific has been implemented and tested by typing any keyword in the search box in the navbar and the database will be searched for that particular keyword in the item name or description. The results will be rendering in the product list page. 
+* The sorting features was incorporated in the sidebar list where the user can click on any brand they would like to buy from and the correspoding resutls will be shown.
+* The developer has also made use of a second sort element on the top right hand corner of the product page where a selection options will be displyed to order items either based on the name, prices, brand, category and subcategories. 
 
 3.	As a visitor to this ecommerce store, I would like to buy whatever I like from the product list:
-3.1.	The quantity input element and Add to bag button on the product detail page is fully working when clicking and adds the item to the shopping bag. 
-3.2.	All items added to the shopping bag is rendering in the shopping bag page with the relavent information including product name, product image, quantity, item price and subtotatal. 
-3.3.	The subtotal, delivery cost and grand total have been checked are making the correct calculations. 
-3.4.	The grand total on the bag icon in the navbar is incrementing accordingly and correctly after new item being add to the shopping bag. 
-3.5.	User eligibality for free delivery is also being update accordingly based on the number of items in the bag and their total cost. 
-3.6.	Secure checkout button is also tested and points user to payment form once clicked. 
-3.7.	Secure payment form is test and is successfully submitting payment intend to Strip.
-3.8.	If the payment intent was successful on Strip, user should see an order confirmation page list the shipping address and order summary.
-3.9.	The profile page has been checked after submitting the order to see if the newly place order is listed in the order history. 
+* The quantity input element and Add to bag button on the product detail page is fully working when clicking and adds the item to the shopping bag. 
+* All items added to the shopping bag is rendering in the shopping bag page with the relavent information including product name, product image, quantity, item price and subtotatal. 
+* The subtotal, delivery cost and grand total have been checked are making the correct calculations. 
+* The grand total on the bag icon in the navbar is incrementing accordingly and correctly after new item being add to the shopping bag. 
+* User eligibality for free delivery is also being update accordingly based on the number of items in the bag and their total cost. 
+* Secure checkout button is also tested and points user to payment form once clicked. 
+* Secure payment form is test and is successfully submitting payment intend to Strip.
+* If the payment intent was successful on Strip, user should see an order confirmation page list the shipping address and order summary.
+* The profile page has been checked after submitting the order to see if the newly place order is listed in the order history. 
 
 4.	As a user of this site, I would like to register for an account if I am new vistor or log in to account if I am a returning user.
-4.1.	Creating new account functionality if the user is new has been test and an account will be created after filling the required informaiton.
-4.2.	The log in functionality is also working for a returning user.
-4.3.	The profile page is displaying both personal informaiton and order history.
-4.4.	Password recovery function is also tested and working. 
+* Creating new account functionality if the user is new has been test and an account will be created after filling the required informaiton.
+* The log in functionality is also working for a returning user.
+* The profile page is displaying both personal informaiton and order history.
+* Password recovery function is also tested and working. 
 This is Lighthouse performance test:
  
 
@@ -219,8 +219,8 @@ This is Lighthouse performance test:
 The images that have been used in the Home page have been taken from Google.com
 
 ## Code
-•	[The box modal have been adapted from this post]( https://stackoverflow.com/questions/19528173/bootstrap-open-another-modal-in-modal)
+* [The box modal have been adapted from this post]( https://stackoverflow.com/questions/19528173/bootstrap-open-another-modal-in-modal)
 
-•	[Responsive mega menu has been taken from this post]( https://codepen.io/arjunamgain/pen/YXBeLJ)
+* [Responsive mega menu has been taken from this post]( https://codepen.io/arjunamgain/pen/YXBeLJ)
 
-•	Strip set up codes have been taken from Boutique_Ado course example
+* Strip set up codes have been taken from Boutique_Ado course example
