@@ -192,14 +192,13 @@ This is Lighthouse performance test:
 
 # Credits 
 ## Database
-[The raw database used in this site have been taken fromBUT I have significantly changed and re-arranged it to fit my need (myshopify.com). 
+[The raw database used in this site have been taken fromBUT I have significantly changed and re-arranged it to fit my need.](myshopify.com) 
 
-## Media
-### Images
-The images that have been used in the Home page have been taken from Google.com
+## Images
+[The images that have been used in the Home page have been taken from](Google.com)
 
 ## Code
-* [The box modal have been adapted from this post]( https://stackoverflow.com/questions/19528173/bootstrap-open-another-modal-in-modal)
+* [The box modal have been adapted from this post](https://stackoverflow.com/questions/19528173/bootstrap-open-another-modal-in-modal)
 
 * [Responsive mega menu has been taken from this post]( https://codepen.io/arjunamgain/pen/YXBeLJ)
 
