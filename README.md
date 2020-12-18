@@ -56,24 +56,24 @@ Number of features have been implemented throughtout the sites so the user will 
 6.	If payment was successful, an order confirmaiton will show up to verify that the order request was successful and the payment went through.
 7.	User can go back then to their profile to see the order that has been just placed. 
 ## Design stories
-Background
+### Background
 * The site’s different pages have white background color.
 * Some div element were given image as background to make the website rich and appealing.
 * The background color of the nav bar and footer were picked to go with body background. 
-Styling
+### Styling
 * All input element in the home, products, product detail and bag pages were style with no rounded edges. 
 * However, the input element in the crispy form have been styled to have round edges, however.
 * Add to bag, secue checkout and complete order buttons were given rounded edges and same background color.
 * The header and footer elements are repeated in every single page except for checkout page where the header is replace with div that has background image that have been used in the home page.
-Card images
+### Card images
 * I have made a use of card image in the home page to promote specific category or subcategory products, for example the eco-friendly brands, makeup collections and hair products page. Once the user clicks on any of there card image, he/she will be directed to what the title on these card say.
 * Since this site is selling beauty product, adding these card images was a nice feature to have to attract certain type of users. 
 * They are also aimed to advertise some beauty products collections.
-Tables
+### Tables
 * Tables are used in both bag and profile pages.
 * Tables are more suited when displaying multiple item with identical number of fields like the items in the shopping bag or in the order history.
 * I have styled them to alternate in background color using bootstrap class.
-Box modal
+### Box modal
 * Some products that are currently under offer or a new arrival were dispalyed on the home page to make a highlight of them. 
 * Quick shop button will be displayed when hovering over the product that will trigger opening Box modal so the user can add the item to the shopping bag without browsing the full product list. 
 * On the new pop up window there will be quantity input button and add to bag button.
